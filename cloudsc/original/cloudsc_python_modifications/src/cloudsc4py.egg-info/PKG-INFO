@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: cloudsc4py
+Version: 0.0.0
+Summary: GT4Py-based implementation of the CLOUDSC dwarf
+Author: ETH Zurich, ECMWF
+Author-email: subbiali@phys.ethz.ch, michael.lange@ecmwf.int
+License: Apache-2.0
+Project-URL: Source, https://github.com/ecmwf-ifs/dwarf-p-cloudsc
+Platform: Linux
+Platform: Mac
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience:: Science / Research
+Classifier: License :: OSI Approved:: Apache License, Version 2.0
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Atmospheric Science
+Requires-Python: >=3.7
+License-File: ../../LICENSE
