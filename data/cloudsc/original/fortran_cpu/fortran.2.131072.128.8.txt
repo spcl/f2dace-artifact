@@ -1,0 +1,13 @@
+cpu-bind=MASK - ault10, task  0  0 [2474233]: mask 0x10000000000000001 set
+     NUMPROC=1, NUMOMP=2, NGPTOTG=131072, NPROMA=128, NGPBLKS=1024
+ Reference MFLOP count for 100 columns :  12.48232900
+     NUMOMP    NGPTOT  #GP-cols     #BLKS    NPROMA tid# : Time(msec)  MFlops/s     col/s
+          2    131072     64640       505       128    0 :      22976       351      5704 @ rank#0:core#0
+          2    131072     66432       519       128    1 :      22916       361      5719 @ rank#0:core#64
+          2    131072    131072      1024       128   -1 :      22981       711      5703 : TOTAL @ rank#0
+    1 x   2    131072    131072      1024       128   -1 :      22981       711      5703 : TOTAL
+             Variable Dim             MinValue             MaxValue            AbsMaxErr         AvgAbsErr/GP          MaxRelErr-%
+slurmstepd: error: *** STEP 161758.828 ON ault10 CANCELLED AT 2023-04-06T04:53:16 DUE TO TIME LIMIT ***
+srun: got SIGCONT
+srun: forcing job termination
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.

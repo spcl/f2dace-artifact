@@ -1,0 +1,3 @@
+cpu-bind=MASK - ault09, task  0  0 [30165]: mask 0x10000000000000001 set
+GPUassert: invalid configuration argument /users/mcopik/projects/2023/dace_gpu/new_transformation/artifact/cloudsc/original/dwarf-p-cloudsc/source/cloudsc-dwarf/src/cloudsc_cuda/cloudsc/cloudsc_driver.cu 419
+srun: error: ault09: task 0: Exited with exit code 9

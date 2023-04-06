@@ -1,0 +1,2 @@
+cpu-bind=MASK - ault07, task  0  0 [1854165]: mask 0xff00000000000000ff set
+srun: error: ault07: task 0: Segmentation fault (core dumped)

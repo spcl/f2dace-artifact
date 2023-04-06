@@ -1,0 +1,5 @@
+cpu-bind=MASK - ault09, task  0  0 [4178049]: mask 0xf000000000000000f set
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 161823.893 ON ault09 CANCELLED AT 2023-04-06T09:00:46 DUE TO TIME LIMIT ***
+srun: got SIGCONT
+srun: forcing job termination

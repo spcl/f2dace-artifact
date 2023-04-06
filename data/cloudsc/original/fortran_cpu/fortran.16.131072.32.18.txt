@@ -1,0 +1,25 @@
+cpu-bind=MASK - ault10, task  0  0 [2508936]: mask 0xff00000000000000ff set
+     NUMPROC=1, NUMOMP=16, NGPTOTG=131072, NPROMA=32, NGPBLKS=4096
+ Reference MFLOP count for 100 columns :  12.48232900
+     NUMOMP    NGPTOT  #GP-cols     #BLKS    NPROMA tid# : Time(msec)  MFlops/s     col/s
+         16    131072      8160       255        32    0 :      18419        55      7115 @ rank#0:core#64
+         16    131072      8128       254        32    1 :      18434        55      7110 @ rank#0:core#0
+         16    131072      8192       256        32    2 :      18402        55      7122 @ rank#0:core#65
+         16    131072      8224       257        32    3 :      18422        55      7114 @ rank#0:core#65
+         16    131072      8160       255        32    4 :      18398        55      7123 @ rank#0:core#2
+         16    131072      8224       257        32    5 :      18398        55      7123 @ rank#0:core#66
+         16    131072      8160       255        32    6 :      18406        55      7120 @ rank#0:core#3
+         16    131072      8224       257        32    7 :      18418        55      7116 @ rank#0:core#67
+         16    131072      8192       256        32    8 :      18425        55      7113 @ rank#0:core#4
+         16    131072      8224       257        32    9 :      18411        55      7119 @ rank#0:core#68
+         16    131072      8192       256        32   10 :      18424        55      7114 @ rank#0:core#5
+         16    131072      8096       253        32   11 :      18429        54      7111 @ rank#0:core#69
+         16    131072      8224       257        32   12 :      18428        55      7112 @ rank#0:core#70
+         16    131072      8224       257        32   13 :      18437        55      7108 @ rank#0:core#6
+         16    131072      8224       257        32   14 :      18406        55      7120 @ rank#0:core#71
+         16    131072      8224       257        32   15 :      18413        55      7118 @ rank#0:core#7
+         16    131072    131072      4096        32   -1 :      18437       887      7108 : TOTAL @ rank#0
+    1 x  16    131072    131072      4096        32   -1 :      18437       887      7108 : TOTAL
+             Variable Dim             MinValue             MaxValue            AbsMaxErr         AvgAbsErr/GP          MaxRelErr-%
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=161824.798 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+srun: error: ault10: task 0: Out Of Memory

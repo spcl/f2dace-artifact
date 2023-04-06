@@ -1,0 +1,3 @@
+cpu-bind=MASK - ault09, task  0  0 [4145648]: mask 0x30000000000000003 set
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=161759.869 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+srun: error: ault09: task 0: Out Of Memory
