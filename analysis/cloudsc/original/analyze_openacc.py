@@ -8,6 +8,7 @@ data = []
 for f in glob.glob(os.path.join(sys.argv[1], "*.txt")):
 
     vals = os.path.basename(f).split('.')
+    type_ = vals[0]
     threads = int(vals[1])
     size = int(vals[2])
     nproma = int(vals[3])
@@ -19,10 +20,10 @@ for f in glob.glob(os.path.join(sys.argv[1], "*.txt")):
             time = line.split()[9]
 
     if time is not None:
-        data.append([threads,size, nproma, rep, time])
+        data.append([type_, threads,size, nproma, rep, time])
     else:
         print('Missing time',f)
 
-df = pd.DataFrame(data, columns=['threads', 'size', 'nproma', 'repetition', 'execution_time'])
+df = pd.DataFrame(data, columns=['type', 'threads', 'size', 'nproma', 'repetition', 'execution_time'])
 df.to_csv('fortran_openacc.csv')
 
