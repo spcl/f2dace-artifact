@@ -1,10 +1,10 @@
-cpu-bind=MASK - ault09, task  0  0 [4116867]: mask 0x10000000000000001 set
+cpu-bind=MASK - ault07, task  0  0 [1883642]: mask 0x10000000000000001 set
      NUMPROC=1, NUMOMP=1, NGPTOTG=65536, NPROMA=16, NGPBLKS=4096
  Reference MFLOP count for 100 columns :  12.48232900
      NUMOMP    NGPTOT  #GP-cols     #BLKS    NPROMA tid# : Time(msec)  MFlops/s     col/s
-          1     65536     65536      4096        16    0 :       6930      1180      9456 @ rank#0:core#64
-          1     65536     65536      4096        16   -1 :       6930      1180      9456 : TOTAL @ rank#0
-    1 x   1     65536     65536      4096        16   -1 :       6930      1180      9456 : TOTAL
+          1     65536     65536      4096        16    0 :       6914      1183      9478 @ rank#0:core#64
+          1     65536     65536      4096        16   -1 :       6914      1183      9478 : TOTAL @ rank#0
+    1 x   1     65536     65536      4096        16   -1 :       6914      1183      9478 : TOTAL
              Variable Dim             MinValue             MaxValue            AbsMaxErr         AvgAbsErr/GP          MaxRelErr-%
                 PLUDE 2D1  0.0000000000000E+00  0.1026720108982E-03  0.0000000000000E+00  0.0000000000000E+00  0.0000000000000E+00     
              PCOVPTOT 2D3  0.0000000000000E+00  0.1000000000000E+01  0.2442490654175E-14  0.1338342338090E-14  0.5022130491041E-14     
