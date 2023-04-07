@@ -1,0 +1,2 @@
+cpu-bind=MASK - ault09, task  0  0 [114617]: mask 0x10000000000000001 set
+Time 26 [ms]

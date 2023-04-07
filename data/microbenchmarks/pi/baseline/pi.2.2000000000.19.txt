@@ -1,0 +1,6 @@
+cpu-bind=MASK - ault07, task  0  0 [1902124]: mask 0x10000000000000001 set
+Calculating PI using:
+                        2000000000 slices
+                                 2 OpenMP threads
+Obtained value of PI: 3.1415926536
+Time taken:                3.51097 seconds
