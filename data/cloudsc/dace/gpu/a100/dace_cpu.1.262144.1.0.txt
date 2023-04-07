@@ -1,0 +1,10 @@
+cpu-bind=MASK - ault25, task  0  0 [1908200]: mask 0x100000000000000000000000000000001 set
+     NUMPROC=1, NUMOMP=1, NGPTOTG=262144, NPROMA=1, NGPBLKS=262144
+2 1 3 4 5 5
+My code link 29.07.2022
+Before init ldcum 1 rlmin 0.000000 ncldql 1 ncldqr 3 ncldqi 2 ncldqs 4 nclv 5 klev 137 klon 1 kidia 1 kfdiia 0 nproma 1
+After init ncldtop 15 rlmin 0.000000 ncldql 1 ncldqr 3 ncldqi 2 ncldqs 4 nclv 5 klev 137 kidia 1 kfdiia 0 nproma 1 ngptotg 262144 NGPTOT_ 262144 nproma 1 nblocks 262144
+slurmstepd: error: *** STEP 162647.120 ON ault25 CANCELLED AT 2023-04-07T10:07:01 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: got SIGCONT
+srun: forcing job termination
