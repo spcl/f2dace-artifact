@@ -37,7 +37,8 @@ cd dwarf-p-cloudsc/build_cpu/
 
 for size in 4096 8192 16384 32768 65536 131072 262144; do
 
-  for nproma in 1 4 8 16 32 64 128; do
+  #for nproma in 1 4 8 16 32 64 128; do
+  for nproma in 16 64 128; do
 
     for rep in {0..19}; do
 
