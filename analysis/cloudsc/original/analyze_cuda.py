@@ -28,5 +28,6 @@ for f in glob.glob(os.path.join(sys.argv[1], "*.txt")):
         print('Missing time',f)
 
 df = pd.DataFrame(data, columns=['type', 'threads', 'size', 'nproma', 'repetition', 'execution_time', 'total_time'])
+df = df[df['type'] == 'cuda']
 df.to_csv('c_cuda.csv')
 
