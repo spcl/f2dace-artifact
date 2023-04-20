@@ -72,7 +72,7 @@ configuration to your system (partition, nodelist).
 ### Plotting
 
 To generate Figures 1 and 10, step into the directory `analysis/cloudsc`, run `process_data.py`,
-and then execute scripts `plot_fig1.py` and `plot_figx.py`. These generate plots in PDF that were
+and then execute scripts `plot_fig1.py` and `plot_fig10.py`. These generate plots in PDF that were
 later improved aesthetically and assembled into the final version in the paper.
 
 ## Microbenchmarks
