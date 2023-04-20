@@ -29,26 +29,26 @@ of CloudSC (Figures 1 and 10), as well as the microbenchmark evaluation (Figure 
 The artifact repository consists of three main components: `data` contains results generated and presented
 in the paper, `analysis` includes all scripts used to produce plots included in the paper,
 and `microbenchmarks` and `cloudsc` contain software needed to reproduce the results obtained in the paper.
-
-### Workflow
-
-The execution workflow for each benchmark executes in the following steps. For each one of them,
+For each benchmark,
 we provide Python and Bash scripts automating the entire procedure:
 
-(i) a complete description of the experiment workflow that the computational artifact(s) can execute
+The essential results of the paper include the performance of the new workflow with the CloudSC benchmark,
+and a Fortran Pi microbenchmark.
+Given the cluster nodes described in previous part, it should not take more than 5 hours to repeat
+all experiments.
 
-### Execution Time
-
-### Expected Results
-
-The essential results of the paper include the performance of new workflow with the CloudSC benchmark
-
-With the artifact, we provide Python scripts that generate figures presenting performance results
-in the paper.
+### CloudSC
 
 Figure 1, 10 - missing improved scripts.
 
+### Microbenchmarks
+
+The microbenchmark
+
+#### Workflow
+
+#### Plotting
+
 To generate Figure 11, step into the directory `analysis/mirobenchmarks` and run `process_data.py`,
 followed by `plot_pi.py`.
-
 
