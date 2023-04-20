@@ -14,8 +14,8 @@ dframes = [dace_cpu, dace_gpu, fortran_cpu, fortran_openacc, c_cpu, c_cuda]
 cpu_frames = [dframes[0], dframes[2], dframes[4]]
 gpu_frames = [dframes[1], dframes[3], dframes[5]]
 
-cpu_filter_by_size = [df[df['size'] == 65536//8] for df in cpu_frames]
-gpu_filter_by_size = [df[df['size'] == 65536//8] for df in gpu_frames]
+cpu_filter_by_size = [df[df['size'] == 65536//1] for df in cpu_frames]
+gpu_filter_by_size = [df[df['size'] == 65536//1] for df in gpu_frames]
 
 single_thread = [df[df['threads'] == 1] for df in cpu_filter_by_size]
 multi_thread = [df[df['threads'] == 32] for df in cpu_filter_by_size]
@@ -87,14 +87,14 @@ sns.barplot(x='implementation', y='execution_time', palette=color, data=df_all[d
 sns.barplot(x='implementation', y='execution_time', palette=color, data=df_all[df_all['execution'] == 'GPU'], ax=ax3)
 # fig.text(0.5, 0.04, 'Implementation', ha='center')
 ax1.set_ylabel('Execution time [s]')
-ax1.set_ylim(top=1500)
+#ax1.set_ylim(top=1500)
 ax1.set_xlabel('CPU sequential')
 ax2.set_ylabel('')
-ax2.set_ylim(top=90)
+#ax2.set_ylim(top=90)
 ax2.set_xlabel('CPU parallel')
 ax3.set_ylabel('')
-ax3.set_ylim(top=30)
+#ax3.set_ylim(top=30)
 ax3.set_xlabel('GPU')
 fig.tight_layout()
 plt.show()
-fig.savefig('figY8.pdf', bbox_inches='tight')
+fig.savefig('figY64.pdf', bbox_inches='tight')
