@@ -10,7 +10,7 @@
 #SBATCH --ntasks-per-core=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --exclusive
-#SBATCH --nodelist=ault25
+#SBATCH --nodelist=ault09
 #SBATCH --hint=nomultithread
 #SBATCH --error=dace_cpu_cloudsc.%j.e
 #SBATCH --output=dace_cpu_cloudsc.%j.o
@@ -30,7 +30,7 @@ echo "Bind List: ${SLURM_CPU_BIND_LIST}"
 echo "OpenMP places: ${OMP_PLACES}"
 echo "OpenMP threads: ${OMP_NUM_THREADS}"
 
-DATA_DIRECTORY=/users/mcopik/projects/2024/dace_icon/f2dace-artifact/data/cloudsc/dace/gpu_new/a100
+DATA_DIRECTORY=/users/mcopik/projects/2024/dace_icon/f2dace-artifact/data/cloudsc/dace/gpu_new/v100
 mkdir -p ${DATA_DIRECTORY}
 
 DIRECTORY=/users/mcopik/projects/2023/dace_gpu/june_clean_generation/new_test_strided
