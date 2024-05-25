@@ -1,0 +1,6 @@
+cpu-bind=MASK - ault25, task  0  0 [3106623]: mask 0x100000000000000000000000000000001 set
+Calculating PI using:
+  1250000000 slices
+  1000 CUDA threads
+Obtained value for PI: 3.1415926535897927
+Time taken: 1.3024979999999999 seconds
