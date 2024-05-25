@@ -8,6 +8,7 @@
 #SBATCH --ntasks=1
 #SBATCH --ntasks-per-core=1
 #SBATCH --ntasks-per-node=1
+#SBATCH --nodelist=ault09
 #SBATCH --exclusive
 #SBATCH --hint=nomultithread
 #SBATCH --error=cloudsc_fortran.%j.e
@@ -28,10 +29,10 @@ echo "Bind List: ${SLURM_CPU_BIND_LIST}"
 echo "OpenMP places: ${OMP_PLACES}"
 echo "OpenMP threads: ${OMP_NUM_THREADS}"
 
-DATA_DIRECTORY=/users/mcopik/projects/2023/dace_gpu/new_transformation/artifact/data/microbenchmarks/pi/dace_cpu
+DATA_DIRECTORY=/users/mcopik/projects/2024/dace_icon/f2dace-artifact/data/microbenchmarks/pi_new/dace_cpu
 mkdir -p ${DATA_DIRECTORY}
 
-DIRECTORY=/users/mcopik/projects/2023/dace_gpu/new_transformation/artifact/microbenchmarks/pi/dace/cpu
+DIRECTORY=/users/mcopik/projects/2024/dace_icon/f2dace-artifact/microbenchmarks/pi/dace/cpu
 cd $DIRECTORY
 
 for size in 1000000000 1250000000 1500000000 1750000000 2000000000; do

@@ -9,6 +9,7 @@
 #SBATCH --ntasks-per-core=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --exclusive
+#SBATCH --nodelist=ault09
 #SBATCH --hint=nomultithread
 #SBATCH --error=cloudsc_fortran.%j.e
 #SBATCH --output=cloudsc_fortran.%j.o
@@ -28,10 +29,10 @@ echo "Bind List: ${SLURM_CPU_BIND_LIST}"
 echo "OpenMP places: ${OMP_PLACES}"
 echo "OpenMP threads: ${OMP_NUM_THREADS}"
 
-DATA_DIRECTORY=/users/mcopik/projects/2023/dace_gpu/new_transformation/artifact/data/microbenchmarks/pi/baseline
+DATA_DIRECTORY=/users/mcopik/projects/2024/dace_icon/f2dace-artifact/data/microbenchmarks/pi_new/baseline
 mkdir -p ${DATA_DIRECTORY}
 
-DIRECTORY=/users/mcopik/projects/2023/dace_gpu/new_transformation/artifact/microbenchmarks/pi/baseline
+DIRECTORY=/users/mcopik/projects/2024/dace_icon/f2dace-artifact/microbenchmarks/pi_new/baseline
 cd $DIRECTORY
 cd pi_examples/fortran_omp_pi_dir
 

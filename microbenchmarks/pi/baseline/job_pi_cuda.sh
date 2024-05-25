@@ -29,17 +29,18 @@ echo "Bind List: ${SLURM_CPU_BIND_LIST}"
 echo "OpenMP places: ${OMP_PLACES}"
 echo "OpenMP threads: ${OMP_NUM_THREADS}"
 
-DATA_DIRECTORY=/users/mcopik/projects/2024/dace_icon/f2dace-artifact/data/microbenchmarks/pi_new/dace_gpu/v100
+DATA_DIRECTORY=/users/mcopik/projects/2024/dace_icon/f2dace-artifact/data/microbenchmarks/pi_new/baseline_cuda
 mkdir -p ${DATA_DIRECTORY}
 
-DIRECTORY=/users/mcopik/projects/2024/dace_icon/f2dace-artifact/microbenchmarks/pi/dace/gpu
+DIRECTORY=/users/mcopik/projects/2024/dace_icon/f2dace-artifact/microbenchmarks/pi_new/baseline
 cd $DIRECTORY
+cd pi_examples/cuda_pi_dir/
 
 for size in 1000000000 1250000000 1500000000 1750000000 2000000000; do
 
   for rep in {0..19}; do
 
-    srun --accel-bind=v --cpu-bind=cores,verbose -n ${SLURM_NTASKS} ./thepi ${size}  > ${DATA_DIRECTORY}/pi.${SLURM_CPUS_PER_TASK}.${size}.${rep}.txt 2>&1
+    srun --accel-bind=v --cpu-bind=cores,verbose -n ${SLURM_NTASKS} ./calculate_pi ${size}  > ${DATA_DIRECTORY}/pi.${SLURM_CPUS_PER_TASK}.${size}.${rep}.txt 2>&1
   done
 
 done
