@@ -7,7 +7,7 @@ cd dwarf-p-cloudsc
 ./cloudsc-bundle build --build-type release --cloudsc-fortran=ON --cloudsc-c=ON --build-dir build_cpu --with-serialbox
 
 # This will fail - cloudsc still tries to compile Fortran with CUDA which does not work
-./cloudsc-bundle build --build-type release --cloudsc-fortran=OFF --cloudsc-c=ON --with-cuda --build-dir build_cuda --with-serialbox; cd build_cuda && make dwarf-cloudsc-cuda dwarf-cloudsc-cuda-hoist dwarf-cloudsc-cuda-k-caching && cd ..
+./cloudsc-bundle build --build-type release --cloudsc-fortran=OFF --cloudsc-c=ON --with-cuda --build-dir build_cuda --with-serialbox; cd build_cuda && make dwarf-cloudsc-c-cuda dwarf-cloudsc-c-cuda-hoist dwarf-cloudsc-c-cuda-k-caching && cd ..
 
 ./cloudsc-bundle build --build-type release --cloudsc-fortran=ON --with-gpu --build-dir build_openacc
 
