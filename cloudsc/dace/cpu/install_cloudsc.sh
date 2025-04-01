@@ -5,5 +5,6 @@ cp cloudsc-modifications/* dwarf-p-cloudsc/src/cloudsc_fortran/
 
 cd dwarf-p-cloudsc
 ./cloudsc-bundle create
-./cloudsc-bundle build --build-type release --cloudsc-fortran=ON
+# ./cloudsc-bundle build --build-type release --cloudsc-fortran=ON --cloudsc-c=ON --build-dir build_cpu --with-serialbox
+./cloudsc-bundle build --build-type release --cloudsc-fortran=ON --with-serialbox
 

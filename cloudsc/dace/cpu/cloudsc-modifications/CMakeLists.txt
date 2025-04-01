@@ -14,20 +14,24 @@ ecbuild_add_option( FEATURE CLOUDSC_FORTRAN
 
 if( HAVE_CLOUDSC_FORTRAN )
 
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -g -O0")
+SET(CMAKE_Fortran_FLAGS "${CMAKE_Fortran_FLAGS} -g -O0")
+SET(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} -g -O0")
+
     # Define the binary build target for this variant
     ecbuild_add_executable( TARGET dwarf-cloudsc-fortran
         SOURCES
             dwarf_cloudsc.F90
             cloudsc_driver_mod.F90
             cloudsc.F90
-	          working.cc
+	    /scratch/pmazumde/gitspace/icon-artifacts/cloudsc/cloudsc_driver_ffi.cc
+	    /scratch/pmazumde/gitspace/icon-artifacts/cloudsc/cloudsc-codegen/src/cpu/cloudsc_driver.cpp
         DEFINITIONS ${CLOUDSC_DEFINITIONS}
     )
-    target_link_libraries( dwarf-cloudsc-fortran PRIVATE cloudsc-common-lib CLOUDSCOUTER)
-    target_link_directories(dwarf-cloudsc-fortran PRIVATE /users/mcopik/projects/2023/dace_gpu/new_transformation/f2dace_generation_cpu/.dacecache/CLOUDSCOUTER/build)
+    target_link_libraries(dwarf-cloudsc-fortran PRIVATE cloudsc-common-lib)
 
     target_include_directories(dwarf-cloudsc-fortran PRIVATE ${CMAKE_CURRENT_BINARY_DIR})
-    target_include_directories(dwarf-cloudsc-fortran PRIVATE /users/mcopik/projects/2023/dace_gpu/f2dace_stuff/dace/dace/runtime/include ${CMAKE_CURRENT_BINARY_DIR}/../common)
+    target_include_directories(dwarf-cloudsc-fortran PRIVATE /scratch/pmazumde/gitspace/icon-artifacts/cloudsc/cloudsc-codegen/include /scratch/pmazumde/gitspace/dace/dace/runtime/include ${CMAKE_CURRENT_BINARY_DIR}/../common)
 
     if( HAVE_OMP AND TARGET OpenMP::OpenMP_Fortran )
         target_link_libraries( dwarf-cloudsc-fortran PRIVATE OpenMP::OpenMP_Fortran )
