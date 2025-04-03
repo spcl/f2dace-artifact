@@ -28,6 +28,7 @@ SET(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} -g -O0")
 	    /scratch/pmazumde/gitspace/icon-artifacts/cloudsc/cloudsc-codegen/src/cpu/cloudsc_driver.cpp
         DEFINITIONS ${CLOUDSC_DEFINITIONS}
     )
+target_compile_options(dwarf-cloudsc-fortran PRIVATE -g -O0)
     target_link_libraries(dwarf-cloudsc-fortran PRIVATE cloudsc-common-lib)
 
     target_include_directories(dwarf-cloudsc-fortran PRIVATE ${CMAKE_CURRENT_BINARY_DIR})

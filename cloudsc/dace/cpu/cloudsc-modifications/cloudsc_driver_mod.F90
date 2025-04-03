@@ -399,6 +399,49 @@ REAL(KIND=JPRB) :: tendency_dummy(NPROMA,NLEV,(NGPTOT / NPROMA) + MIN(MOD(NGPTOT
     TID = GET_THREAD_NUM()
     CALL TIMER%THREAD_START(TID)
 
+! #define OLD_CODE
+#define NEW_CODE
+#ifdef OLD_CODE
+    !$omp do schedule(runtime)
+    DO JKGLO=1,NGPTOT,NPROMA
+       IBL=(JKGLO-1)/NPROMA+1
+       ICEND=MIN(NPROMA,NGPTOT-JKGLO+1)
+
+         !-- These were uninitialized : meaningful only when we compare error differences
+         PCOVPTOT(:,:,IBL) = 0.0_JPRB
+         TENDENCY_LOC(IBL)%cld(:,:,NCLV) = 0.0_JPRB
+
+         CALL CLOUDSC &
+              & (    1,    ICEND,    NPROMA,  NLEV,&
+              & PTSPHY,&
+              & PT(:,:,IBL), PQ(:,:,IBL), &
+              & TENDENCY_TMP(IBL)%T, TENDENCY_TMP(IBL)%Q, TENDENCY_TMP(IBL)%A, TENDENCY_TMP(IBL)%CLD, &
+              & TENDENCY_LOC(IBL)%T, TENDENCY_LOC(IBL)%Q, TENDENCY_LOC(IBL)%A, TENDENCY_LOC(IBL)%CLD, &
+              & PVFA(:,:,IBL), PVFL(:,:,IBL), PVFI(:,:,IBL), PDYNA(:,:,IBL), PDYNL(:,:,IBL), PDYNI(:,:,IBL), &
+              & PHRSW(:,:,IBL),    PHRLW(:,:,IBL),&
+              & PVERVEL(:,:,IBL),  PAP(:,:,IBL),      PAPH(:,:,IBL),&
+              & PLSM(:,IBL),       LDCUM(:,IBL),      KTYPE(:,IBL), &
+              & PLU(:,:,IBL),      PLUDE(:,:,IBL),    PSNDE(:,:,IBL),    PMFU(:,:,IBL),     PMFD(:,:,IBL),&
+              !---prognostic fields
+              & PA(:,:,IBL),       PCLV(:,:,:,IBL),   PSUPSAT(:,:,IBL),&
+              !-- arrays for aerosol-cloud interactions
+              & PLCRIT_AER(:,:,IBL),PICRIT_AER(:,:,IBL),&
+              & PRE_ICE(:,:,IBL),&
+              & PCCN(:,:,IBL),     PNICE(:,:,IBL),&
+              !---diagnostic output
+              & PCOVPTOT(:,:,IBL), PRAINFRAC_TOPRFZ(:,IBL),&
+              !---resulting fluxes
+              & PFSQLF(:,:,IBL),   PFSQIF (:,:,IBL),  PFCQNNG(:,:,IBL),  PFCQLNG(:,:,IBL),&
+              & PFSQRF(:,:,IBL),   PFSQSF (:,:,IBL),  PFCQRNG(:,:,IBL),  PFCQSNG(:,:,IBL),&
+              & PFSQLTUR(:,:,IBL), PFSQITUR (:,:,IBL), &
+              & PFPLSL(:,:,IBL),   PFPLSN(:,:,IBL),   PFHPSL(:,:,IBL),   PFHPSN(:,:,IBL),&
+              & KFLDX, &
+              & YDOMCST, YDOETHF, YDECLDP)
+         ! Log number of columns processed by this thread
+         CALL TIMER%THREAD_LOG(TID, IGPC=ICEND)
+      ENDDO
+#endif
+#ifdef NEW_CODE
 print *, "yikes"
 
 DO JKGLO=1,NGPTOT,NPROMA
@@ -419,9 +462,216 @@ print *, "ydecldp . ncldtop = ", ydecldp % ncldtop
 print *, "ydecldp . nbeta = ", ydecldp % nbeta
 print *, "ydomcst . rgamd = ", ydomcst % rgamd
 print *, "ydoethf . rkoop2 = ", ydoethf % rkoop2
-call cloudsc_driver_wrapper(ktype, ldcum, pa, pap, paph, pccn, pclv, pcovptot, pdyna, pdyni, pdynl, pfcqlng, pfcqnng, pfcqrng, pfcqsng, pfhpsl, pfhpsn, pfplsl, pfplsn, pfsqif, pfsqitur, pfsqlf, pfsqltur, pfsqrf, pfsqsf, phrlw, phrsw, picrit_aer, plcrit_aer, plsm, plu, plude, pmfd, pmfu, pnice, pq, prainfrac_toprfz, pre_ice, psnde, psupsat, pt, pvervel, pvfa, pvfi, pvfl, tendency_loc_a, tendency_loc_cld, tendency_loc_q, tendency_loc_t, tendency_tmp_a, tendency_tmp_cld, tendency_tmp_q, tendency_tmp_t, ydecldp, ydoethf, ydomcst, &
-        &size(ktype, 1),size(ldcum, 1),size(pa, 1),size(pa, 2),size(pap, 1),size(pap, 2),size(paph, 1),size(paph, 2),size(pclv, 1),size(pclv, 2),size(pclv, 3),size(pcovptot, 1),size(pcovptot, 2),size(pfcqlng, 1),size(pfcqlng, 2),size(pfcqnng, 1),size(pfcqnng, 2),size(pfcqrng, 1),size(pfcqrng, 2),size(pfcqsng, 1),size(pfcqsng, 2),size(pfhpsl, 1),size(pfhpsl, 2),size(pfhpsn, 1),size(pfhpsn, 2),size(pfplsl, 1),size(pfplsl, 2),size(pfplsn, 1),size(pfplsn, 2),size(pfsqif, 1),size(pfsqif, 2),size(pfsqitur, 1),size(pfsqitur, 2),size(pfsqlf, 1),size(pfsqlf, 2),size(pfsqltur, 1),size(pfsqltur, 2),size(pfsqrf, 1),size(pfsqrf, 2),size(pfsqsf, 1),size(pfsqsf, 2),size(phrlw, 1),size(phrlw, 2),size(phrsw, 1),size(phrsw, 2),size(picrit_aer, 1),size(picrit_aer, 2),size(plsm, 1),size(plu, 1),size(plu, 2),size(plude, 1),size(plude, 2),size(pmfd, 1),size(pmfd, 2),size(pmfu, 1),size(pmfu, 2),size(pnice, 1),size(pnice, 2),size(pq, 1),size(pq, 2),size(prainfrac_toprfz, 1),size(pre_ice, 1),size(pre_ice, 2),size(psnde, 1),size(psnde, 2),size(psupsat, 1),size(psupsat, 2),size(pt, 1),size(pt, 2),size(pvervel, 1),size(pvervel, 2),size(pvfi, 1),size(pvfi, 2),size(pvfl, 1),size(pvfl, 2),size(tendency_loc_a, 1),size(tendency_loc_a, 2),size(tendency_loc_cld, 1),size(tendency_loc_cld, 2),size(tendency_loc_cld, 3),size(tendency_loc_q, 1),size(tendency_loc_q, 2),size(tendency_loc_t, 1),size(tendency_loc_t, 2),size(tendency_tmp_a, 1),size(tendency_tmp_a, 2),size(tendency_tmp_cld, 1),size(tendency_tmp_cld, 2),size(tendency_tmp_cld, 3),size(tendency_tmp_q, 1),size(tendency_tmp_q, 2),size(tendency_tmp_t, 1),size(tendency_tmp_t, 2),lbound(ktype, 2),lbound(ldcum, 2),lbound(pa, 3),lbound(pap, 3),lbound(paph, 3),lbound(pclv, 4),lbound(pcovptot, 1),lbound(pcovptot, 2),lbound(pcovptot, 3),lbound(pfcqlng, 3),lbound(pfcqnng, 3),lbound(pfcqrng, 3),lbound(pfcqsng, 3),lbound(pfhpsl, 3),lbound(pfhpsn, 3),lbound(pfplsl, 3),lbound(pfplsn, 3),lbound(pfsqif, 3),lbound(pfsqitur, 3),lbound(pfsqlf, 3),lbound(pfsqltur, 3),lbound(pfsqrf, 3),lbound(pfsqsf, 3),lbound(phrlw, 3),lbound(phrsw, 3),lbound(picrit_aer, 3),lbound(plsm, 2),lbound(plu, 3),lbound(plude, 3),lbound(pmfd, 3),lbound(pmfu, 3),lbound(pnice, 3),lbound(pq, 3),lbound(prainfrac_toprfz, 2),lbound(pre_ice, 3),lbound(psnde, 3),lbound(psupsat, 3),lbound(pt, 3),lbound(pvervel, 3),lbound(pvfi, 3),lbound(pvfl, 3),lbound(tendency_loc_a, 1),lbound(tendency_loc_cld, 1),lbound(tendency_loc_cld, 2),lbound(tendency_loc_cld, 3),lbound(tendency_loc_cld, 4),lbound(tendency_loc_q, 1),lbound(tendency_loc_t, 1),lbound(tendency_tmp_a, 1),lbound(tendency_tmp_cld, 1),lbound(tendency_tmp_q, 1),lbound(tendency_tmp_t, 1), &
-        &kfldx, ngptot, ngptotg, nlev, nproma, numomp, ptsphy)
+call cloudsc_driver_wrapper( &
+    ktype, &
+    ldcum, &
+    pa, &
+    pap, &
+    paph, &
+    pccn, &
+    pclv, &
+    pcovptot, &
+    pdyna, &
+    pdyni, &
+    pdynl, &
+    pfcqlng, &
+    pfcqnng, &
+    pfcqrng, &
+    pfcqsng, &
+    pfhpsl, &
+    pfhpsn, &
+    pfplsl, &
+    pfplsn, &
+    pfsqif, &
+    pfsqitur, &
+    pfsqlf, &
+    pfsqltur, &
+    pfsqrf, &
+    pfsqsf, &
+    phrlw, &
+    phrsw, &
+    picrit_aer, &
+    plcrit_aer, &
+    plsm, &
+    plu, &
+    plude, &
+    pmfd, &
+    pmfu, &
+    pnice, &
+    pq, &
+    prainfrac_toprfz, &
+    pre_ice, &
+    psnde, &
+    psupsat, &
+    pt, &
+    pvervel, &
+    pvfa, &
+    pvfi, &
+    pvfl, &
+    tendency_loc_a, &
+    tendency_loc_cld, &
+    tendency_loc_q, &
+    tendency_loc_t, &
+    tendency_tmp_a, &
+    tendency_tmp_cld, &
+    tendency_tmp_q, &
+    tendency_tmp_t, &
+    ydecldp, &
+    ydoethf, &
+    ydomcst, &
+    size(ktype, 1), &
+    size(ldcum, 1), &
+    size(pa, 1), &
+    size(pa, 2), &
+    size(pap, 1), &
+    size(pap, 2), &
+    size(paph, 1), &
+    size(paph, 2), &
+    size(pclv, 1), &
+    size(pclv, 2), &
+    size(pclv, 3), &
+    size(pcovptot, 1), &
+    size(pcovptot, 2), &
+    size(pfcqlng, 1), &
+    size(pfcqlng, 2), &
+    size(pfcqnng, 1), &
+    size(pfcqnng, 2), &
+    size(pfcqrng, 1), &
+    size(pfcqrng, 2), &
+    size(pfcqsng, 1), &
+    size(pfcqsng, 2), &
+    size(pfhpsl, 1), &
+    size(pfhpsl, 2), &
+    size(pfhpsn, 1), &
+    size(pfhpsn, 2), &
+    size(pfplsl, 1), &
+    size(pfplsl, 2), &
+    size(pfplsn, 1), &
+    size(pfplsn, 2), &
+    size(pfsqif, 1), &
+    size(pfsqif, 2), &
+    size(pfsqitur, 1), &
+    size(pfsqitur, 2), &
+    size(pfsqlf, 1), &
+    size(pfsqlf, 2), &
+    size(pfsqltur, 1), &
+    size(pfsqltur, 2), &
+    size(pfsqrf, 1), &
+    size(pfsqrf, 2), &
+    size(pfsqsf, 1), &
+    size(pfsqsf, 2), &
+    size(phrlw, 1), &
+    size(phrlw, 2), &
+    size(phrsw, 1), &
+    size(phrsw, 2), &
+    size(picrit_aer, 1), &
+    size(picrit_aer, 2), &
+    size(plsm, 1), &
+    size(plu, 1), &
+    size(plu, 2), &
+    size(plude, 1), &
+    size(plude, 2), &
+    size(pmfd, 1), &
+    size(pmfd, 2), &
+    size(pmfu, 1), &
+    size(pmfu, 2), &
+    size(pnice, 1), &
+    size(pnice, 2), &
+    size(pq, 1), &
+    size(pq, 2), &
+    size(prainfrac_toprfz, 1), &
+    size(pre_ice, 1), &
+    size(pre_ice, 2), &
+    size(psnde, 1), &
+    size(psnde, 2), &
+    size(psupsat, 1), &
+    size(psupsat, 2), &
+    size(pt, 1), &
+    size(pt, 2), &
+    size(pvervel, 1), &
+    size(pvervel, 2), &
+    size(pvfi, 1), &
+    size(pvfi, 2), &
+    size(pvfl, 1), &
+    size(pvfl, 2), &
+    size(tendency_loc_a, 1), &
+    size(tendency_loc_a, 2), &
+    size(tendency_loc_cld, 1), &
+    size(tendency_loc_cld, 2), &
+    size(tendency_loc_cld, 3), &
+    size(tendency_loc_q, 1), &
+    size(tendency_loc_q, 2), &
+    size(tendency_loc_t, 1), &
+    size(tendency_loc_t, 2), &
+    size(tendency_tmp_a, 1), &
+    size(tendency_tmp_a, 2), &
+    size(tendency_tmp_cld, 1), &
+    size(tendency_tmp_cld, 2), &
+    size(tendency_tmp_cld, 3), &
+    size(tendency_tmp_q, 1), &
+    size(tendency_tmp_q, 2), &
+    size(tendency_tmp_t, 1), &
+    size(tendency_tmp_t, 2), &
+    lbound(ktype, 2), &
+    lbound(ldcum, 2), &
+    lbound(pa, 3), &
+    lbound(pap, 3), &
+    lbound(paph, 3), &
+    lbound(pclv, 4), &
+    lbound(pcovptot, 1), &
+    lbound(pcovptot, 2), &
+    lbound(pcovptot, 3), &
+    lbound(pfcqlng, 3), &
+    lbound(pfcqnng, 3), &
+    lbound(pfcqrng, 3), &
+    lbound(pfcqsng, 3), &
+    lbound(pfhpsl, 3), &
+    lbound(pfhpsn, 3), &
+    lbound(pfplsl, 3), &
+    lbound(pfplsn, 3), &
+    lbound(pfsqif, 3), &
+    lbound(pfsqitur, 3), &
+    lbound(pfsqlf, 3), &
+    lbound(pfsqltur, 3), &
+    lbound(pfsqrf, 3), &
+    lbound(pfsqsf, 3), &
+    lbound(phrlw, 3), &
+    lbound(phrsw, 3), &
+    lbound(picrit_aer, 3), &
+    lbound(plsm, 2), &
+    lbound(plu, 3), &
+    lbound(plude, 3), &
+    lbound(pmfd, 3), &
+    lbound(pmfu, 3), &
+    lbound(pnice, 3), &
+    lbound(pq, 3), &
+    lbound(prainfrac_toprfz, 2), &
+    lbound(pre_ice, 3), &
+    lbound(psnde, 3), &
+    lbound(psupsat, 3), &
+    lbound(pt, 3), &
+    lbound(pvervel, 3), &
+    lbound(pvfi, 3), &
+    lbound(pvfl, 3), &
+    lbound(tendency_loc_a, 3), &
+    lbound(tendency_loc_cld, 1), &
+    lbound(tendency_loc_cld, 2), &
+    lbound(tendency_loc_cld, 3), &
+    lbound(tendency_loc_cld, 4), &
+    lbound(tendency_loc_q, 3), &
+    lbound(tendency_loc_t, 3), &
+    lbound(tendency_tmp_a, 3), &
+    lbound(tendency_tmp_cld, 4), &
+    lbound(tendency_tmp_q, 3), &
+    lbound(tendency_tmp_t, 3), &
+    kfldx, &
+    ngptot, &
+    ngptotg, &
+    nlev, &
+    nproma, &
+    numomp, &
+    ptsphy &
+)
 
 DO JKGLO=1,NGPTOT,NPROMA
        IBL=(JKGLO-1)/NPROMA+1
@@ -429,7 +679,12 @@ DO JKGLO=1,NGPTOT,NPROMA
        TENDENCY_LOC(IBL)%q(:,:)=tendency_loc_q(:,:,IBL)
        TENDENCY_LOC(IBL)%a(:,:)=tendency_loc_a(:,:,IBL)
        TENDENCY_LOC(IBL)%T(:,:)=tendency_loc_T(:,:,IBL)
+ENDDO
+#endif
 
+DO JKGLO=1,NGPTOT,NPROMA
+IBL=(JKGLO-1)/NPROMA+1
+print *, "T=", TENDENCY_LOC(IBL)%T(:,:)
 ENDDO
 
       CALL TIMER%THREAD_END(TID)
