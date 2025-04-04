@@ -14,9 +14,9 @@ ecbuild_add_option( FEATURE CLOUDSC_FORTRAN
 
 if( HAVE_CLOUDSC_FORTRAN )
 
-# set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -g -O0")
-# set(CMAKE_Fortran_FLAGS "${CMAKE_Fortran_FLAGS} -g -O0")
-# set(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} -g -O0")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -g -O0")
+set(CMAKE_Fortran_FLAGS "${CMAKE_Fortran_FLAGS} -g -O0")
+set(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} -g -O0")
 
     # Define the binary build target for this variant
     ecbuild_add_executable( TARGET dwarf-cloudsc-fortran
@@ -25,11 +25,20 @@ if( HAVE_CLOUDSC_FORTRAN )
             cloudsc_driver_mod.F90
             cloudsc.F90
 	    /scratch/pmazumde/gitspace/icon-artifacts/cloudsc/cloudsc_driver_ffi.cc
-	    /scratch/pmazumde/gitspace/icon-artifacts/cloudsc/cloudsc-codegen/src/cpu/cloudsc_driver.cpp
+	    # /scratch/pmazumde/gitspace/icon-artifacts/cloudsc/cloudsc-simplified-codegen/src/cpu/cloudsc_driver.cpp
+	    # /scratch/pmazumde/gitspace/icon-artifacts/cloudsc/cloudsc-simplified-loop2map-codegen/src/cpu/cloudsc_driver.cpp
         DEFINITIONS ${CLOUDSC_DEFINITIONS}
     )
 # target_compile_options(dwarf-cloudsc-fortran PRIVATE -g -O0)
-    target_link_libraries(dwarf-cloudsc-fortran PRIVATE cloudsc-common-lib)
+
+target_link_libraries(dwarf-cloudsc-fortran PRIVATE cloudsc-common-lib)
+
+target_link_libraries(dwarf-cloudsc-fortran PRIVATE cloudsc_driver)
+target_link_directories(dwarf-cloudsc-fortran PRIVATE /scratch/pmazumde/gitspace/icon-artifacts/cloudsc/cloudsc-simplified-codegen/build)
+# target_link_directories(dwarf-cloudsc-fortran PRIVATE /scratch/pmazumde/gitspace/icon-artifacts/cloudsc/cloudsc-simplified-loop2map-codegen/build)
+
+target_include_directories(dwarf-cloudsc-fortran PRIVATE /scratch/pmazumde/gitspace/icon-artifacts/cloudsc/cloudsc-simplified-codegen/include)
+# target_include_directories(dwarf-cloudsc-fortran PRIVATE /scratch/pmazumde/gitspace/icon-artifacts/cloudsc/cloudsc-simplified-loop2map-codegen/include)
 
     target_include_directories(dwarf-cloudsc-fortran PRIVATE ${CMAKE_CURRENT_BINARY_DIR})
     target_include_directories(dwarf-cloudsc-fortran PRIVATE /scratch/pmazumde/gitspace/icon-artifacts/cloudsc/cloudsc-codegen/include /scratch/pmazumde/gitspace/dace/dace/runtime/include ${CMAKE_CURRENT_BINARY_DIR}/../common)
