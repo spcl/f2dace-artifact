@@ -527,11 +527,19 @@ call cloudsc_driver_wrapper( &
     size(pap, 2), &
     size(paph, 1), &
     size(paph, 2), &
+    size(pccn, 1), &
+    size(pccn, 2), &
     size(pclv, 1), &
     size(pclv, 2), &
     size(pclv, 3), &
     size(pcovptot, 1), &
     size(pcovptot, 2), &
+    size(pdyna, 1), &
+    size(pdyna, 2), &
+    size(pdyni, 1), &
+    size(pdyni, 2), &
+    size(pdynl, 1), &
+    size(pdynl, 2), &
     size(pfcqlng, 1), &
     size(pfcqlng, 2), &
     size(pfcqnng, 1), &
@@ -566,6 +574,8 @@ call cloudsc_driver_wrapper( &
     size(phrsw, 2), &
     size(picrit_aer, 1), &
     size(picrit_aer, 2), &
+    size(plcrit_aer, 1), &
+    size(plcrit_aer, 2), &
     size(plsm, 1), &
     size(plu, 1), &
     size(plu, 2), &
@@ -590,6 +600,8 @@ call cloudsc_driver_wrapper( &
     size(pt, 2), &
     size(pvervel, 1), &
     size(pvervel, 2), &
+    size(pvfa, 1), &
+    size(pvfa, 2), &
     size(pvfi, 1), &
     size(pvfi, 2), &
     size(pvfl, 1), &
@@ -617,10 +629,14 @@ call cloudsc_driver_wrapper( &
     lbound(pa, 3), &
     lbound(pap, 3), &
     lbound(paph, 3), &
+    lbound(pccn, 3), &
     lbound(pclv, 4), &
     lbound(pcovptot, 1), &
     lbound(pcovptot, 2), &
     lbound(pcovptot, 3), &
+    lbound(pdyna, 3), &
+    lbound(pdyni, 3), &
+    lbound(pdynl, 3), &
     lbound(pfcqlng, 3), &
     lbound(pfcqnng, 3), &
     lbound(pfcqrng, 3), &
@@ -638,6 +654,7 @@ call cloudsc_driver_wrapper( &
     lbound(phrlw, 3), &
     lbound(phrsw, 3), &
     lbound(picrit_aer, 3), &
+    lbound(plcrit_aer, 3), &
     lbound(plsm, 2), &
     lbound(plu, 3), &
     lbound(plude, 3), &
@@ -651,6 +668,7 @@ call cloudsc_driver_wrapper( &
     lbound(psupsat, 3), &
     lbound(pt, 3), &
     lbound(pvervel, 3), &
+    lbound(pvfa, 3), &
     lbound(pvfi, 3), &
     lbound(pvfl, 3), &
     lbound(tendency_loc_a, 3), &
