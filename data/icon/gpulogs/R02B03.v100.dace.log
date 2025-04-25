@@ -1,0 +1,1054 @@
+drwxr-xr-x 2 pmazumde g34 4096 Apr 14 00:54 /scratch/pmazumde/paper-icon-dace/icon-dace/build/experiments/exclaim_ape_R02B04
+cp: cannot stat '/scratch/pmazumde/paper-icon-dace/icon-dace/build/data/pmod.txt': No such file or directory
+no_of_models=1
+-rwxr-xr-x 1 pmazumde g34 59662856 Apr 14 00:51 /scratch/pmazumde/paper-icon-dace/icon-dace/build/bin/icon
+	linux-vdso.so.1 (0x00007ffff7ffa000)
+	/scratch/pmazumde/gitspace/icon-artifacts/velocity/integrate_meh/libvelocity_gpu.so (0x00007ffff799b000)
+	libopenblas.so.0 => /scratch/wbenjami/dafy/sdfg_gpu/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/openblas-0.3.23-ara3inpfwh3myjbgqpaiqye5qc2b6wnc/lib/libopenblas.so.0 (0x00007ffff6b7e000)
+	libnetcdff.so.7 => /scratch/wbenjami/dafy/sdfg_gpu/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/netcdf-fortran-4.6.0-p7jdeag2groulzasdfqnokx2qiris3zh/lib/libnetcdff.so.7 (0x00007ffff68e1000)
+	libnetcdf.so.15 => /lib64/libnetcdf.so.15 (0x00007ffff6595000)
+	libgfortran.so.5 => /apps/ault/spack/opt/spack/linux-centos8-zen/gcc-8.4.1/gcc-10.2.0-fqf4ze2mfclmx6e7ehrjckznpoqnevmi/lib64/libgfortran.so.5 (0x00007ffff60dd000)
+	libm.so.6 => /lib64/libm.so.6 (0x00007ffff5d5b000)
+	libgomp.so.1 => /apps/ault/spack/opt/spack/linux-centos8-zen/gcc-8.4.1/gcc-10.2.0-fqf4ze2mfclmx6e7ehrjckznpoqnevmi/lib64/libgomp.so.1 (0x00007ffff5b1c000)
+	libgcc_s.so.1 => /apps/ault/spack/opt/spack/linux-centos8-zen/gcc-8.4.1/gcc-10.2.0-fqf4ze2mfclmx6e7ehrjckznpoqnevmi/lib64/libgcc_s.so.1 (0x00007ffff5904000)
+	libquadmath.so.0 => /apps/ault/spack/opt/spack/linux-centos8-zen/gcc-8.4.1/gcc-10.2.0-fqf4ze2mfclmx6e7ehrjckznpoqnevmi/lib64/libquadmath.so.0 (0x00007ffff56bd000)
+	libpthread.so.0 => /lib64/libpthread.so.0 (0x00007ffff549d000)
+	libc.so.6 => /lib64/libc.so.6 (0x00007ffff50d8000)
+	librt.so.1 => /lib64/librt.so.1 (0x00007ffff4ed0000)
+	libdl.so.2 => /lib64/libdl.so.2 (0x00007ffff4ccc000)
+	libstdc++.so.6 => /apps/ault/spack/opt/spack/linux-centos8-zen/gcc-8.4.1/gcc-10.2.0-fqf4ze2mfclmx6e7ehrjckznpoqnevmi/lib64/libstdc++.so.6 (0x00007ffff48f9000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007ffff7dd0000)
+	libnetcdf.so.19 => /scratch/wbenjami/dafy/sdfg_gpu/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/netcdf-c-4.9.2-zynxjqlltpkunevnlaltrm7kfqlwjgpu/lib/libnetcdf.so.19 (0x00007ffff453e000)
+	libmfhdf.so.0 => /lib64/libmfhdf.so.0 (0x00007ffff4315000)
+	libdf.so.0 => /lib64/libdf.so.0 (0x00007ffff406c000)
+	libjpeg.so.62 => /lib64/libjpeg.so.62 (0x00007ffff3e03000)
+	libsz.so.2 => /lib64/libsz.so.2 (0x00007ffff3c00000)
+	libhdf5_hl.so.100 => /lib64/libhdf5_hl.so.100 (0x00007ffff39dc000)
+	libhdf5.so.103 => /lib64/libhdf5.so.103 (0x00007ffff3451000)
+	libz.so.1 => /lib64/libz.so.1 (0x00007ffff323a000)
+	libcurl.so.4 => /lib64/libcurl.so.4 (0x00007ffff2fac000)
+	libtirpc.so.3 => /lib64/libtirpc.so.3 (0x00007ffff2d79000)
+	libhdf5_hl.so.310 => /scratch/wbenjami/dafy/sdfg_gpu/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/hdf5-1.14.1-2-mcrete3fq77pzt5w5ho36pplg7cwzajp/lib/libhdf5_hl.so.310 (0x00007ffff2b55000)
+	libhdf5.so.310 => /scratch/wbenjami/dafy/sdfg_gpu/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/hdf5-1.14.1-2-mcrete3fq77pzt5w5ho36pplg7cwzajp/lib/libhdf5.so.310 (0x00007ffff24fb000)
+	libbz2.so.1 => /lib64/libbz2.so.1 (0x00007ffff22ea000)
+	libzstd.so.1 => /scratch/wbenjami/dafy/sdfg_gpu/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/zstd-1.5.5-u7mtgju6r3n2vqwylfjhctmlq4j2cjwb/lib/libzstd.so.1 (0x00007ffff1fff000)
+	libaec.so.0 => /lib64/libaec.so.0 (0x00007ffff1df7000)
+	libnghttp2.so.14 => /lib64/libnghttp2.so.14 (0x00007ffff1bd0000)
+	libidn2.so.0 => /lib64/libidn2.so.0 (0x00007ffff19b2000)
+	libssh.so.4 => /lib64/libssh.so.4 (0x00007ffff1743000)
+	libpsl.so.5 => /lib64/libpsl.so.5 (0x00007ffff1532000)
+	libssl.so.1.1 => /lib64/libssl.so.1.1 (0x00007ffff129e000)
+	libcrypto.so.1.1 => /lib64/libcrypto.so.1.1 (0x00007ffff0db8000)
+	libgssapi_krb5.so.2 => /lib64/libgssapi_krb5.so.2 (0x00007ffff0b63000)
+	libkrb5.so.3 => /lib64/libkrb5.so.3 (0x00007ffff087a000)
+	libk5crypto.so.3 => /lib64/libk5crypto.so.3 (0x00007ffff0663000)
+	libcom_err.so.2 => /lib64/libcom_err.so.2 (0x00007ffff045f000)
+	libldap-2.4.so.2 => /lib64/libldap-2.4.so.2 (0x00007ffff0211000)
+	liblber-2.4.so.2 => /lib64/liblber-2.4.so.2 (0x00007ffff0001000)
+	libbrotlidec.so.1 => /lib64/libbrotlidec.so.1 (0x00007fffefdf4000)
+	libunistring.so.2 => /lib64/libunistring.so.2 (0x00007fffefa73000)
+	libkrb5support.so.0 => /lib64/libkrb5support.so.0 (0x00007fffef862000)
+	libkeyutils.so.1 => /lib64/libkeyutils.so.1 (0x00007fffef65e000)
+	libresolv.so.2 => /lib64/libresolv.so.2 (0x00007fffef447000)
+	libsasl2.so.3 => /lib64/libsasl2.so.3 (0x00007fffef229000)
+	libbrotlicommon.so.1 => /lib64/libbrotlicommon.so.1 (0x00007fffef008000)
+	libselinux.so.1 => /lib64/libselinux.so.1 (0x00007fffeedde000)
+	libcrypt.so.1 => /lib64/libcrypt.so.1 (0x00007fffeebb5000)
+	libpcre2-8.so.0 => /lib64/libpcre2-8.so.0 (0x00007fffee931000)
+Mon Apr 14 00:55:38 CEST 2025
++ ulimit -s 500000000
++ /scratch/pmazumde/paper-icon-dace/icon-dace/build/bin/icon
+mo_mpi::start_mpi No MPI: Single processor run.
+ mo_mpi::start_mpi: Running globally OpenMP mode.
+ mo_mpi::start_mpi global_no_of_threads is 1
+
+ Single processor run.
+
+ executable: /scratch/pmazumde/paper-icon-dace/icon-dace/build/bin/icon
+ date: 20250414
+ time: 005538
+ user: Pratyai Mazumder, ETHZ (pmazumde)
+ host: ault10 (Linux 4.18.0-305.19.1.el8_4.x86_64 x86_64)
+ version: 2024.10
+ revision: unknown
+ repository: unknown
+ local branch: unknown
+ infrastructure and support libraries:
+   MATH-INTERPOLATION: unknown
+   MATH-SUPPORT: unknown
+   FORTRAN-SUPPORT: unknown
+   MTIME: unknown
+   CDI:
+     version: 2.4.0
+     revision: unknown
+ other libraries:
+   NetCDF-C: 4.7.0
+ compilers:
+   Fortran: GNU 10.2.0 (GCC version 10.2.0)
+   C: GNU 10.2.0
+ probtest metadata:
+   Revision: unknown
+   Branch: unknown
+ 
+ master_control: start model initialization.
+ set_nproma_nblocks: Will recompute nproma based on nblocks_c
+ set_nproma_nblocks_sub: Using namelist nproma_sub=     48
+ check_parallel_configuration: num_io_procs has no effect if the model is compiled with the NOMPI compiler directive
+ check_parallel_configuration: --> num_io_procs set to 0
+ check_parallel_configuration: num_prefetch_proc has no effect if the model is compiled with the NOMPI compiler directive
+ check_parallel_configuration: --> num_prefetch_proc set to 0
+ mo_dbg_nml/read_dbg_namelist:: read debug namelist dbg_index_nml
+ 
+ mo_advection_nml: read_transport_nml: Evaluate the number of names in transport_nml/tracer_names
+ ---                                      number of named tracers :         0
+ mo_advection_nml: read_transport_nml: Setting default names for tracers without names.
+ ---                              number of tracers without names :         5
+ ---                                   tracer name q1 in position :         1
+ ---                                   tracer name q2 in position :         2
+ ---                                   tracer name q3 in position :         3
+ ---                                   tracer name q4 in position :         4
+ ---                                   tracer name q5 in position :         5
+ 
+ mo_nwp_phy_nml:read_nwp_phy_namelist: Warning: itype_z0 is reset to 1 because surface scheme is turned off
+ 
+ Model time step          : PT02.000S
+ 
+ 
+ Checkpoint interval      : P1D
+ Restart interval         : P1D
+ 
+ This is not a RESTART run ...
+ IAU time shift: PT00.000S
+ 
+ Calendar: Proleptic Gregorian
+ 
+ Experiment reference date: 2000-01-01T00:00:00Z
+ Experiment start date    : 2000-01-01T00:00:00Z
+ Experiment stop date     : 2000-01-01T00:00:30.000
+ 
+ Experiment stop date     : 2000-01-01T00:00:30.000
+ Start date    : 2000-01-01T00:00:00Z
+ Stop date     : 2000-01-01T00:00:30.000
+ 
+ mo_nml_crosscheck::atm_crosscheck: NetCDF output of floating point variables will be in 64-bit accuracy
+ mo_nml_crosscheck::atm_crosscheck: --> use_dp_mpi2io is changed to .TRUE. to allow 64-bit accuracy in the NetCDF output.
+ mo_nml_crosscheck::atm_crosscheck: namelist parameter 'activate_sync_timers' has been set to .TRUE., because global 'timers_level' is > 9.
+ set_mpi_work_communicators: num_io_procs_radar has no effect if there are no radar-active domains!
+ set_mpi_work_communicators: --> num_io_procs_radar set to 0
+ mo_model_domimp_patches:import_pre_patches: start to import patches
+ mo_model_domimp_patches:read_pre_patch: start to init patch_pre
+ Read grid file /scratch/pmazumde/icon-grids/icon_grid_0050_R02B03_G.nc
+ mo_model_domimp_patches:read_pre_patch: grid uuid: 8b061946-2026-11ef-b2a4-75cdad0b155d
+ mo_model_domimp_patches:read_pre_patch: generating center of patch    1:  252
+ mo_model_domimp_patches:read_pre_patch: generating subcenter of patch    1:    0
+ mo_model_domimp_patches:read_pre_patch: number_of_grid_used of patch    1:   50
+ mo_model_domimp_patches:read_pre_patch: URI of patch    1: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0050/icon_grid_0050_R02B03_G.nc
+ mo_model_domimp_patches:read_pre_patch: read_patches finished
+ mo_subdivision:decompose_domain: start of domain decomposition
+ mo_subdivision:decompose_domain: Is this taking a long time? Consider adding macro definition HAVE_SLOW_PASSIVE_TARGET_ONESIDED to compile time settings.
+ No splitting of processor grid
+ mo_setup_subdivision::divide_patch: dividing patch
+ New nproma::    5120
+ Secondary nproma (nproma_sub)::      48
+ mo_setup_subdivision: divide_patch: erase negative refin_ctrl flags in patch 1
+ mo_model_domimp_patches:read_remaining_patch: Read gridmap file /scratch/pmazumde/icon-grids/icon_grid_0050_R02B03_G.nc
+ mo_read_netcdf_distributed::distrib_nf_open: /scratch/pmazumde/icon-grids/icon_grid_0050_R02B03_G.nc
+ mo_model_domimp_patches:read_remaining_patch: read finished
+ build_decomposition: Done.
+ mo_icon_output_tools:init_io_processes: synchronous namelist I/O scheme is enabled.
+ RBF scale factors for cells/edges/vertices, domain   1:  0.50000 0.50000 0.50000
+ RBF scale factors for velocity boundary interpolation   1:  0.50000
+ mo_intp_state:construct_2d_interpol_state: start to construct int_state
+ mo_intp_state:construct_2d_interpol_state: constructing int_state for patch 1
+ mo_intp_state:allocate_int_state: memory allocation finished
+ mo_intp_rbf_coeffs:rbf_vec_compute_coeff_cell: 
+ mo_intp_rbf_coeffs:rbf_vec_compute_coeff_vertex: 
+ mo_intp_rbf_coeffs:rbf_vec_compute_coeff_edge: 
+ mo_interpolation:tri_quadrature_pts: 
+ mo_intp_coeffs:calculate_tangent_plane_at_edge: 
+ mo_interpolation:init_tplane_c_sphere: 
+ mo_intp_coeffs_lsq_bln:lsq_stencil_create: 
+ mo_intp_coeffs_lsq_bln:create_stencil_c3: create 3-point stencil
+ mo_interpolation:lsq_compute_coeff_cell_sphere: 
+ mo_intp_coeffs_lsq_bln:lsq_stencil_create: 
+ mo_intp_coeffs_lsq_bln:create_stencil_c9: create 9-point stencil
+ mo_interpolation:lsq_compute_coeff_cell_sphere: 
+ mo_intp_state:construct_2d_interpol_state: construction of interpolation state finished
+ setup_phys_patches: Physical domain    1 belongs to logical domain    1
+ mo_dynamics_config:setup_dynamics_config: Set time level indices
+ ldynamics  =  .TRUE.: 2 time levels used for progn. dynamics  variables -> nnew /= nnow
+ ltransport =  .TRUE.: 2 time levels used for progn. transport variables -> nnew_rcf /= nnow_rcf
+ ---                                                 nnow    (01) :         1
+ ---                                                 nnew    (01) :         2
+ ---                                                 nold    (01) :         3
+ ---                                                 nnow_rcf(01) :         1
+ ---                                                 nnew_rcf(01) :         2
+ mo_lnd_nwp_config::configure_lnd_nwp: Number of hydrological active soil layers ibot_w_so is set to:  6
+ Surface tile setup
+ 
+ tileName | GRIB2 tileId | tileAtts | ICON tile Ids |  
+ -------- | ------------ | -------- | ------------- |  
+ 
+ undef    | 0            | 0,       | 1,            |  
+  
+ mo_ext_data_state:construct_ext_data: Construction of data structure for external data started
+ 
+ adding new var_list ext_data_atm_D01
+ 
+ adding new var_list ext_data_atm_td_D01
+ mo_ext_data_state:construct_ext_data: Construction of data structure for external data finished
+ mo_ext_data_init:init_ext_data: Start
+ mo_ext_data_init:init_ext_data: Running with analytical topography
+ (mo_nh_testcases) init_nh_testtopo:: running Aqua-Planet Experiment with non-hydrostatic atm. dynamics and NWP physics
+ SLEVE coord: Coordinate setup finished
+ flat coordinate surfaces starting at level  50
+ Nominal heights of coordinate half levels and layer thicknesses (m):
+ jk, vct_a, dvct:    1   75000.000    2500.062
+ jk, vct_a, dvct:    2   72499.938    2120.077
+ jk, vct_a, dvct:    3   70379.861    1973.825
+ jk, vct_a, dvct:    4   68406.037    1873.407
+ jk, vct_a, dvct:    5   66532.630    1794.666
+ jk, vct_a, dvct:    6   64737.964    1728.783
+ jk, vct_a, dvct:    7   63009.181    1671.503
+ jk, vct_a, dvct:    8   61337.677    1620.434
+ jk, vct_a, dvct:    9   59717.243    1574.090
+ jk, vct_a, dvct:   10   58143.153    1531.483
+ jk, vct_a, dvct:   11   56611.670    1491.918
+ jk, vct_a, dvct:   12   55119.752    1454.889
+ jk, vct_a, dvct:   13   53664.863    1420.013
+ jk, vct_a, dvct:   14   52244.850    1386.992
+ jk, vct_a, dvct:   15   50857.858    1355.591
+ jk, vct_a, dvct:   16   49502.267    1325.621
+ jk, vct_a, dvct:   17   48176.646    1296.923
+ jk, vct_a, dvct:   18   46879.723    1269.369
+ jk, vct_a, dvct:   19   45610.354    1242.848
+ jk, vct_a, dvct:   20   44367.505    1217.266
+ jk, vct_a, dvct:   21   43150.239    1192.543
+ jk, vct_a, dvct:   22   41957.696    1168.609
+ jk, vct_a, dvct:   23   40789.087    1145.401
+ jk, vct_a, dvct:   24   39643.685    1122.866
+ jk, vct_a, dvct:   25   38520.819    1100.956
+ jk, vct_a, dvct:   26   37419.863    1079.627
+ jk, vct_a, dvct:   27   36340.236    1058.842
+ jk, vct_a, dvct:   28   35281.394    1038.564
+ jk, vct_a, dvct:   29   34242.830    1018.763
+ jk, vct_a, dvct:   30   33224.066     999.410
+ jk, vct_a, dvct:   31   32224.657     980.478
+ jk, vct_a, dvct:   32   31244.179     961.942
+ jk, vct_a, dvct:   33   30282.237     943.782
+ jk, vct_a, dvct:   34   29338.455     925.976
+ jk, vct_a, dvct:   35   28412.479     908.504
+ jk, vct_a, dvct:   36   27503.975     891.350
+ jk, vct_a, dvct:   37   26612.625     874.495
+ jk, vct_a, dvct:   38   25738.129     857.926
+ jk, vct_a, dvct:   39   24880.204     841.626
+ jk, vct_a, dvct:   40   24038.578     825.582
+ jk, vct_a, dvct:   41   23212.996     809.781
+ jk, vct_a, dvct:   42   22403.215     794.210
+ jk, vct_a, dvct:   43   21609.005     778.857
+ jk, vct_a, dvct:   44   20830.148     763.712
+ jk, vct_a, dvct:   45   20066.437     748.762
+ jk, vct_a, dvct:   46   19317.674     733.999
+ jk, vct_a, dvct:   47   18583.676     719.411
+ jk, vct_a, dvct:   48   17864.265     704.988
+ jk, vct_a, dvct:   49   17159.277     690.723
+ jk, vct_a, dvct:   50   16468.554     676.605
+ jk, vct_a, dvct:   51   15791.949     662.625
+ jk, vct_a, dvct:   52   15129.325     648.774
+ jk, vct_a, dvct:   53   14480.551     635.044
+ jk, vct_a, dvct:   54   13845.507     621.427
+ jk, vct_a, dvct:   55   13224.080     607.913
+ jk, vct_a, dvct:   56   12616.167     594.494
+ jk, vct_a, dvct:   57   12021.673     581.162
+ jk, vct_a, dvct:   58   11440.510     567.908
+ jk, vct_a, dvct:   59   10872.602     554.724
+ jk, vct_a, dvct:   60   10317.878     541.600
+ jk, vct_a, dvct:   61    9776.278     528.528
+ jk, vct_a, dvct:   62    9247.750     515.497
+ jk, vct_a, dvct:   63    8732.253     502.500
+ jk, vct_a, dvct:   64    8229.754     489.524
+ jk, vct_a, dvct:   65    7740.229     476.561
+ jk, vct_a, dvct:   66    7263.668     463.599
+ jk, vct_a, dvct:   67    6800.069     450.625
+ jk, vct_a, dvct:   68    6349.444     437.629
+ jk, vct_a, dvct:   69    5911.815     424.595
+ jk, vct_a, dvct:   70    5487.221     411.508
+ jk, vct_a, dvct:   71    5075.712     398.354
+ jk, vct_a, dvct:   72    4677.358     385.114
+ jk, vct_a, dvct:   73    4292.244     371.768
+ jk, vct_a, dvct:   74    3920.476     358.293
+ jk, vct_a, dvct:   75    3562.183     344.665
+ jk, vct_a, dvct:   76    3217.518     330.853
+ jk, vct_a, dvct:   77    2886.665     316.825
+ jk, vct_a, dvct:   78    2569.840     302.539
+ jk, vct_a, dvct:   79    2267.301     287.948
+ jk, vct_a, dvct:   80    1979.353     272.995
+ jk, vct_a, dvct:   81    1706.358     257.606
+ jk, vct_a, dvct:   82    1448.753     241.690
+ jk, vct_a, dvct:   83    1207.063     225.130
+ jk, vct_a, dvct:   84     981.933     207.763
+ jk, vct_a, dvct:   85     774.170     189.367
+ jk, vct_a, dvct:   86     584.802     169.607
+ jk, vct_a, dvct:   87     415.195     147.947
+ jk, vct_a, dvct:   88     267.248     123.415
+ jk, vct_a, dvct:   89     143.833      93.833
+ jk, vct_a, dvct:   90      50.000      50.000
+ jk, vct_a, dvct:   91       0.000       0.000
+ parallel calculation of vgrid UUID. Generated UUID: b1db5a1c-8ab0-0aa7-9482-1394186122e0
+ mo_advection_utils::init_tracer_settings: Attention: NWP physics is used, ntracer is automatically reset to   6
+ mo_nonhydrostatic_config:configure_nonhydrostatic: Domain   1; computation of moist physics processes starts in layer   42
+ mo_nonhydrostatic_config:configure_nonhydrostatic: Domain   1; high- and mid-level clouds in layers above   66  80
+ Index list generation - number of land tiles:    1
+ Total number of tiles:    1
+ Number of land points in domain  1:         0
+ Number of sea points in domain  1:      5120
+ Number of lake points in domain  1:         0
+ Number of points in tile 1:         0
+ Number of corrected false glacier points in domain  1:         0
+ Time intervals for calling NWP physics on patch            1
+ 
+ Process | dt user [=> final] |  
+ ------- | ------------------ |  
+ 
+ conv    |    4.00            |  
+ ccov    |    4.00            |  
+ gwd     |    8.00            |  
+ fastphy |    2.00            |  
+  
+ mo_atm_phy_nwp_config:configure_atm_phy_nwp: itune_o3 is reset to 0 because irad_o3 is not 7, 79 or 97
+ Event-setup for phyNwpEventGroup on patch  1
+ 
+ eventName | enabled | startDate                | endDate                  | intvl     |  
+ --------- | ------- | ------------------------ | ------------------------ | --------- |  
+ 
+ conv      | T       | [2000-01-01T00:00:02.000 | 2000-01-01T00:00:30.000] | PT04.000S |  
+ ccov      | T       | [2000-01-01T00:00:02.000 | 2000-01-01T00:00:30.000] | PT04.000S |  
+ rad       | F       | ]2000-01-01T00:00:02.000 | 2000-01-01T00:00:02.000] | PT12.000S |  
+ sso       | F       | ]2000-01-01T00:00:02.000 | 2000-01-01T00:00:02.000] | PT20M     |  
+ gwd       | T       | [2000-01-01T00:00:02.000 | 2000-01-01T00:00:30.000] | PT08.000S |  
+ satad     | T       | [2000-01-01T00:00:02.000 | 2000-01-01T00:00:30.000] | PT02.000S |  
+ turb      | T       | [2000-01-01T00:00:02.000 | 2000-01-01T00:00:30.000] | PT02.000S |  
+ gscp      | T       | [2000-01-01T00:00:02.000 | 2000-01-01T00:00:30.000] | PT02.000S |  
+ sfc       | F       | ]2000-01-01T00:00:02.000 | 2000-01-01T00:00:02.000] | PT02.000S |  
+ radheat   | F       | ]2000-01-01T00:00:02.000 | 2000-01-01T00:00:02.000] | PT02.000S |  
+  
+ atm_phy_nwp:configure_ww: Domain   1; ih_500hPa, ihb500hPa, ih_700hPa, ih_850hPa, ih_950hPa, ihb950hPa   70  70  76  82  86  87
+ atm_phy_nwp:configure_ww: Domain   1; ifog_temp, ifog_wind   84  87
+ mo_nonhydro_state::construct_nh_state: Construction of NH state started
+ 
+ adding new var_list nh_state_prog_of_domain_01_and_timelev_01
+ 
+ adding new var_list nh_state_prog_of_domain_01_and_timelev_02
+ 
+ adding new var_list nh_state_diag_of_domain_01
+ 
+ adding new var_list nh_state_metrics_of_domain_01
+ 
+ adding new var_list nh_state_ref_of_domain_01
+ mo_nonhydro_state::construct_nh_state: NH state construction completed
+ 
+ adding new var_list nh_state_opt_diag_of_domain_01
+ 
+ adding new var_list nh_state_opt_diag_z_of_domain_01
+ 
+ adding new var_list nh_state_opt_diag_p_of_domain_01
+ 
+ adding new var_list nh_state_opt_diag_i_of_domain_01
+ 
+ adding new var_list nh_accumulation_for_ProgAndDiag_of_domain_01
+ 
+ adding new var_list prepadv_of_domain_01
+ mo_prepadv_state:construct_prepadv_state: construction of prep_adv state finished
+ mo_nwp_phy_state:construct_nwp_state: start to construct 3D state vector
+ 
+ adding new var_list prm_diag_of_domain_01
+ mo_nwp_phy_state:construct_nwp_phy_diag: construction of NWP physical fields finished
+ 
+ adding new var_list prm_tend_of_domain_01
+ mo_nwp_phy_state:construct_nwp_phy_tend: construction of NWP physical tendency fields finished
+ 
+ adding new var_list prm_stch_of_domain_01
+ mo_nwp_phy_state:construct_nwp_state: construction of state vector finished
+ mo_nwp_lnd_state:construct_nwp_lnd_state: land state construction started
+ 
+ adding new var_list lnd_prog_of_domain_01_and_timelev_01
+ 
+ adding new var_list wtr_prog_of_domain_01_and_timelev_01
+ 
+ adding new var_list lnd_prog_of_domain_01_and_timelev_02
+ 
+ adding new var_list wtr_prog_of_domain_01_and_timelev_02
+ 
+ adding new var_list lnd_diag_of_domain_01
+ mo_nwp_lnd_state:construct_nwp_lnd_state: land state construction completed
+ 
+ adding new var_list nh_state_tracer_of_domain_01_and_timelev_01
+ 
+ adding new var_list nh_state_tracer_of_domain_01_and_timelev_02
+ Tracer meta-information for patch            1
+ 
+ VarName | Tracer ID | feedback | in list trAdvect | in list trNotAdvect | in list trHydroMass | slev | substep range | nadv_substeps |  
+ ------- | --------- | -------- | ---------------- | ------------------- | ------------------- | ---- | ------------- | ------------- |  
+ 
+ qv.TL1  |   1       | X        | X                |                     |                     |   1  |   1/ 41       |   3           |  
+ qc.TL1  |   2       | X        | X                |                     | X                   |  42  | -- / --       | --            |  
+ qi.TL1  |   3       | X        | X                |                     | X                   |  42  | -- / --       | --            |  
+ qr.TL1  |   4       |          | X                |                     | X                   |  42  | -- / --       | --            |  
+ qs.TL1  |   5       |          | X                |                     | X                   |  42  | -- / --       | --            |  
+ qg.TL1  |   6       |          | X                |                     | X                   |  42  | -- / --       | --            |  
+  
+ mo_vertical_grid:set_nh_metrics: Domain   1; end index of Rayleigh damping layer for w:   15
+ mo_vertical_grid: Damping coefficient for w; diffusion enhancement coefficient:
+ mo_vertical_grid: level    1, half-level height 75000.0  0.10000E+00  0.24000E+02
+ mo_vertical_grid: level    2, half-level height 72499.9  0.63728E-01  0.15866E+02
+ mo_vertical_grid: level    3, half-level height 70379.9  0.39420E-01  0.10142E+02
+ mo_vertical_grid: level    4, half-level height 68406.0  0.23745E-01  0.64362E+01
+ mo_vertical_grid: level    5, half-level height 66532.6  0.14165E-01  0.41902E+01
+ mo_vertical_grid: level    6, half-level height 64738.0  0.84607E-02  0.28713E+01
+ mo_vertical_grid: level    7, half-level height 63009.2  0.50903E-02  0.21050E+01
+ mo_vertical_grid: level    8, half-level height 61337.7  0.30937E-02  0.16590E+01
+ mo_vertical_grid: level    9, half-level height 59717.2  0.19018E-02  0.13976E+01
+ mo_vertical_grid: level   10, half-level height 58143.2  0.11828E-02  0.12427E+01
+ mo_vertical_grid: level   11, half-level height 56611.7  0.74419E-03  0.11499E+01
+ mo_vertical_grid: level   12, half-level height 55119.8  0.47348E-03  0.10937E+01
+ mo_vertical_grid: level   13, half-level height 53664.9  0.30450E-03  0.10592E+01
+ mo_vertical_grid: level   14, half-level height 52244.9  0.19785E-03  0.10378E+01
+ mo_vertical_grid: level   15, half-level height 50857.9  0.12983E-03  0.10244E+01
+ mo_vertical_grid:set_nh_metrics: Maximum vertical wind offcentering:   0.1500
+ mo_vertical_grid:set_nh_metrics: Maximum slope:   0.0000
+ mo_vertical_grid:set_nh_metrics: Maximum height difference between adjacent points:      0.0
+ (mo_nh_testcases) init_nh_testcase:: End setup non-hydrostatic APE test (APE_nwp, APE_aes, APE_nh, APEc_nh)
+ 
+ Output on pressure/height levels and/or isentropes: domain 1
+ selected pressure levels: 
+  10000.00,  20000.00,  25000.00,  30000.00,  50000.00,
+  70000.00,  85000.00,  90000.00,  95000.00, 100000.00,
+ 
+ mo_name_list_output_init::init_name_list_output: Number of name list output files:    2
+
+output "default", does not write ready files:
+ 
+ model step   model date                filename                                           I/O PE   output date               #      open   close    
+ ----------   -----------------------   ------------------------------------------------   ------   -----------------------   ----   ----   -----    
+ 
+ 0            2000-01-01T00:00:00.000   exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc   0        2000-01-01T00:00:00.000   1.1    x               
+ 1            2000-01-01T00:00:02.000   exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc      0        2000-01-01T00:00:03.000   1.1    x      x        
+                                        exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc   0        2000-01-01T00:00:02.000   1.2                    
+ 2            2000-01-01T00:00:04.000   exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc      0        2000-01-01T00:00:05.000   1.2                    
+                                        exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc   0        2000-01-01T00:00:04.000   1.3                    
+ 3            2000-01-01T00:00:06.000   exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc      0        2000-01-01T00:00:07.000   1.3                    
+                                        exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc   0        2000-01-01T00:00:06.000   1.4                    
+ 4            2000-01-01T00:00:08.000   exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc      0        2000-01-01T00:00:09.000   1.4                    
+                                        exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc   0        2000-01-01T00:00:08.000   1.5                    
+ 5            2000-01-01T00:00:10.000   exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc      0        2000-01-01T00:00:11.000   1.5                    
+                                        exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc   0        2000-01-01T00:00:10.000   1.6                    
+ 6            2000-01-01T00:00:12.000   exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc      0        2000-01-01T00:00:13.000   1.6                    
+                                        exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc   0        2000-01-01T00:00:12.000   1.7                    
+ 7            2000-01-01T00:00:14.000   exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc      0        2000-01-01T00:00:15.000   1.7                    
+                                        exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc   0        2000-01-01T00:00:14.000   1.8                    
+ 8            2000-01-01T00:00:16.000   exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc      0        2000-01-01T00:00:17.000   1.8                    
+                                        exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc   0        2000-01-01T00:00:16.000   1.9                    
+ 9            2000-01-01T00:00:18.000   exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc      0        2000-01-01T00:00:19.000   1.9                    
+                                        exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc   0        2000-01-01T00:00:18.000   1.10                   
+ 10           2000-01-01T00:00:20.000   exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc      0        2000-01-01T00:00:21.000   1.10                   
+                                        exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc   0        2000-01-01T00:00:20.000   1.11                   
+ 11           2000-01-01T00:00:22.000   exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc      0        2000-01-01T00:00:23.000   1.11                   
+                                        exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc   0        2000-01-01T00:00:22.000   1.12                   
+ 12           2000-01-01T00:00:24.000   exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc      0        2000-01-01T00:00:25.000   1.12                   
+                                        exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc   0        2000-01-01T00:00:24.000   1.13                   
+ 13           2000-01-01T00:00:26.000   exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc      0        2000-01-01T00:00:27.000   1.13                   
+                                        exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc   0        2000-01-01T00:00:26.000   1.14                   
+ 14           2000-01-01T00:00:28.000   exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc      0        2000-01-01T00:00:29.000   1.14                   
+                                        exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc   0        2000-01-01T00:00:28.000   1.15                   
+ 15           2000-01-01T00:00:30.000   exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc      0        2000-01-01T00:00:30.000   1.15          x        
+                                        exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc   0        2000-01-01T00:00:30.000   1.16          x        
+
+ mo_name_list_output_init::init_name_list_output: Done
+ Variables assigned to action RESET: rain_gsp, snow_gsp, graupel_gsp, ice_gsp, prec_gsp, rain_con, snow_con, prec_con, tot_prec, tot_prec_d, prec_gsp_d, prec_con_d, prec_con_rate_avg, prec_gsp_rate_avg, tot_prec_rate_avg, gust10, tmax_2m, tmin_2m
+ 
+ VarName           | PID | Ref date                | Start date              | End date                | Interval |  
+ ----------------- | --- | ----------------------- | ----------------------- | ----------------------- | -------- |  
+ 
+ rain_gsp          |  1  | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:30.000 | P01Y     |  
+ snow_gsp          |  1  | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:30.000 | P01Y     |  
+ graupel_gsp       |  1  | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:30.000 | P01Y     |  
+ ice_gsp           |  1  | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:30.000 | P01Y     |  
+ prec_gsp          |  1  | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:30.000 | P01Y     |  
+ rain_con          |  1  | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:30.000 | P01Y     |  
+ snow_con          |  1  | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:30.000 | P01Y     |  
+ prec_con          |  1  | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:30.000 | P01Y     |  
+ tot_prec          |  1  | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:30.000 | P01Y     |  
+ tot_prec_d        |  1  | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:30.000 | PT01H    |  
+ prec_gsp_d        |  1  | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:30.000 | PT01H    |  
+ prec_con_d        |  1  | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:30.000 | PT01H    |  
+ prec_con_rate_avg |  1  | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:30.000 | P01Y     |  
+ prec_gsp_rate_avg |  1  | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:30.000 | P01Y     |  
+ tot_prec_rate_avg |  1  | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:30.000 | P01Y     |  
+ gust10            |  1  | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:30.000 | PT01H    |  
+ tmax_2m           |  1  | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:30.000 | PT06H    |  
+ tmin_2m           |  1  | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:30.000 | PT06H    |  
+  
+ multifile restart writing selected, joint proc mode.
+ mo_nwp_phy_init:: initialize sea-ice lists, call init_sea_lists
+ Number of (partly) seaice covered points in domain  1:         0
+ Number of (partly) ice-free sea points in domain  1:      5120
+ Number of sea points in domain  1:      5120
+ mo_nwp_phy_init: initialized surface temp and humidity
+ mo_nwp_phy_init: init microphysics
+ gscp_set_coefficients: microphysical values initialized
+ mo_nwp_phy_init: init convection
+ mo_cuparameters, sucumf: NJKT1, NJKT2, KSMAX
+ mo_cuparameters, sucumf:      64     46 0.31564E+06
+ mo_cuparameters, sucumf: LMFMID, LMFDD, LMFDUDV, RTAU, ENTRORG, TEXC, QEXC
+ mo_cuparameters, sucumf:          T     T     T  3.0000 0.1950E-02 0.12500 0.01250
+ mo_cuparameters, sucumf: RHEBC_LND, RHEBC_LND_TROP, RHEBC_OCE, RHEBC_OCE_TROP, RCUCOV, RCUCOV_TROP
+ mo_cuparameters, sucumf:       0.7500  0.7000  0.8500  0.7600  0.0500  0.0300
+ mo_nwp_phy_init: convection initialized
+ mo_nwp_phy_init: init roughness length
+ mo_nwp_phy_init: init COSMO turbulence
+ mo_nwp_phy_init: Cosmo turbulence initialized
+ mo_nwp_phy_init: non-orog GWs initialized
+ mo_cuparameters, sugwd: nktopg, ngwdlim, ngwdtop
+ mo_cuparameters, sugwd:     78    44     8
+ mo_nh_stepping:init_slowphysics: initial call of (slow) physics, domain  1
+ mo_name_list_output::open_output_file: opened exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc at simulation time 2000-01-01T00:00:00.000 by PE 0
+ 
+ added event group: checkpointEventGroup
+ Event list: checkpointEventGroup
+        1          checkpoint
+        2          restart
+ 
+ Start date of this run: 2000-01-01T00:00:00.000
+ Stop date of this run:  2000-01-01T00:00:30.000
+ 
+ 
+ Time step:        1, model time: 2000-01-01 00:00:02.000 forecast time 00D 00H00M02S
+Timer Run took 4690 us
+Timer Run took 699 us
+Timer Run took 376 us
+Timer Run took 370 us
+Timer Run took 368 us
+Timer Run took 362 us
+Timer Run took 776 us
+Timer Run took 381 us
+Timer Run took 371 us
+Timer Run took 359 us
+Timer Run took 367 us
+Timer Run took 365 us
+Timer Run took 402 us
+Timer Run took 370 us
+Timer Run took 369 us
+Timer Run took 364 us
+Timer Run took 366 us
+Timer Run took 368 us
+Timer Run took 392 us
+Timer Run took 371 us
+Timer Run took 370 us
+Timer Run took 367 us
+Timer Run took 370 us
+Timer Run took 358 us
+ MAXABS VN, W in domain  1:  0.3496253551E+02 at level  59,   0.0000000000E+00 at level   1,
+ MAXABS VN, W in domain  1:  0.3496115240E+02 at level  59,   0.1726846659E-02 at level   2,
+ MAXABS VN, W in domain  1:  0.3496014893E+02 at level  59,   0.3404371708E-02 at level   2,
+ MAXABS VN, W in domain  1:  0.3495941534E+02 at level  59,   0.5029129838E-02 at level   2,
+ MAXABS VN, W in domain  1:  0.3495887322E+02 at level  59,   0.7369463503E-02 at level  51,
+ integrate_nh: call advection  DOM: 1
+ nwp_nh_interface:: average |dPS/dt| =   75.294997 Pa/s in domain  1
+ mo_name_list_output::open_output_file: opened exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc at simulation time 2000-01-01T00:00:03.000 by PE 0
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc at simulation time 2000-01-01T00:00:02.000 by PE 0
+ 
+ Time step:        2, model time: 2000-01-01 00:00:04.000 forecast time 00D 00H00M04S
+ MAXABS VN, W in domain  1:  0.3495793597E+02 at level  59,   0.1114213010E-01 at level  51,
+ MAXABS VN, W in domain  1:  0.3495769629E+02 at level  59,   0.2133038281E+00 at level  87,
+ MAXABS VN, W in domain  1:  0.3495750352E+02 at level  59,   0.3279096125E+00 at level  87,
+ MAXABS VN, W in domain  1:  0.3495734373E+02 at level  59,   0.5697217311E+00 at level  87,
+ MAXABS VN, W in domain  1:  0.3495720705E+02 at level  59,   0.8656786506E+00 at level  87,
+ integrate_nh: call advection  DOM: 1
+ mo_advection_vflux:upwind_vflux_ppm: maximum vertical CFL =  0.59041100E-02
+ nwp_nh_interface:: average |dPS/dt| =   38.582415 Pa/s in domain  1
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc at simulation time 2000-01-01T00:00:05.000 by PE 0
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc at simulation time 2000-01-01T00:00:04.000 by PE 0
+ 
+ Time step:        3, model time: 2000-01-01 00:00:06.000 forecast time 00D 00H00M06S
+ MAXABS VN, W in domain  1:  0.3495659616E+02 at level  59,   0.1209472901E+01 at level  87,
+ MAXABS VN, W in domain  1:  0.3495654973E+02 at level  59,   0.9349367088E+00 at level  86,
+ MAXABS VN, W in domain  1:  0.3495649309E+02 at level  59,   0.8584522762E+00 at level  85,
+ MAXABS VN, W in domain  1:  0.3495642926E+02 at level  59,   0.9058060218E+00 at level  85,
+ MAXABS VN, W in domain  1:  0.3495636042E+02 at level  59,   0.9623874995E+00 at level  87,
+ integrate_nh: call advection  DOM: 1
+ nwp_nh_interface:: average |dPS/dt| =   17.033793 Pa/s in domain  1
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc at simulation time 2000-01-01T00:00:07.000 by PE 0
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc at simulation time 2000-01-01T00:00:06.000 by PE 0
+ 
+ Time step:        4, model time: 2000-01-01 00:00:08.000 forecast time 00D 00H00M08S
+ MAXABS VN, W in domain  1:  0.3495581241E+02 at level  59,   0.1093521690E+01 at level  87,
+ MAXABS VN, W in domain  1:  0.3495579888E+02 at level  59,   0.9390797892E+00 at level  84,
+ MAXABS VN, W in domain  1:  0.3495576630E+02 at level  59,   0.8654414978E+00 at level  83,
+ MAXABS VN, W in domain  1:  0.3495572050E+02 at level  59,   0.8917925663E+00 at level  82,
+ MAXABS VN, W in domain  1:  0.3495566560E+02 at level  59,   0.9000553084E+00 at level  82,
+ integrate_nh: call advection  DOM: 1
+ mo_advection_vflux:upwind_vflux_ppm: maximum vertical CFL =  0.68478740E-02
+ nwp_nh_interface:: average |dPS/dt| =   19.313454 Pa/s in domain  1
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc at simulation time 2000-01-01T00:00:09.000 by PE 0
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc at simulation time 2000-01-01T00:00:08.000 by PE 0
+ 
+ Time step:        5, model time: 2000-01-01 00:00:10.000 forecast time 00D 00H00M10S
+Timer Run took 391 us
+Timer Run took 369 us
+Timer Run took 367 us
+Timer Run took 368 us
+Timer Run took 370 us
+Timer Run took 372 us
+Timer Run took 379 us
+Timer Run took 372 us
+Timer Run took 370 us
+Timer Run took 372 us
+Timer Run took 362 us
+Timer Run took 370 us
+Timer Run took 389 us
+Timer Run took 369 us
+Timer Run took 357 us
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_1
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_1
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_1_istep_1
+ Exit velocity_no_nproma_if_prop_lvn_only_1_istep_1
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_1_istep_1
+ Exit velocity_no_nproma_if_prop_lvn_only_1_istep_1
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_1_istep_1
+ Exit velocity_no_nproma_if_prop_lvn_only_1_istep_1
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_1_istep_1
+ Exit velocity_no_nproma_if_prop_lvn_only_1_istep_1
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_1_istep_1
+ Exit velocity_no_nproma_if_prop_lvn_only_1_istep_1
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_1_istep_1
+ Exit velocity_no_nproma_if_prop_lvn_only_1_istep_1
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+Timer Run took 367 us
+Timer Run took 366 us
+Timer Run took 369 us
+Timer Run took 393 us
+Timer Run took 376 us
+Timer Run took 371 us
+Timer Run took 367 us
+Timer Run took 365 us
+Timer Run took 361 us
+ MAXABS VN, W in domain  1:  0.3495513966E+02 at level  59,   0.8771317289E+00 at level  81,
+ MAXABS VN, W in domain  1:  0.3495513486E+02 at level  59,   0.8977968286E+00 at level  81,
+ MAXABS VN, W in domain  1:  0.3495511006E+02 at level  59,   0.8652566946E+00 at level  80,
+ MAXABS VN, W in domain  1:  0.3495507151E+02 at level  59,   0.8956620986E+00 at level  80,
+ MAXABS VN, W in domain  1:  0.3495502356E+02 at level  59,   0.8533465480E+00 at level  80,
+ integrate_nh: call advection  DOM: 1
+ nwp_nh_interface:: average |dPS/dt| =   27.066327 Pa/s in domain  1
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc at simulation time 2000-01-01T00:00:11.000 by PE 0
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc at simulation time 2000-01-01T00:00:10.000 by PE 0
+ 
+ Time step:        6, model time: 2000-01-01 00:00:12.000 forecast time 00D 00H00M12S
+ MAXABS VN, W in domain  1:  0.3495451454E+02 at level  59,   0.8848610268E+00 at level  79,
+ MAXABS VN, W in domain  1:  0.3495451587E+02 at level  59,   0.8581694603E+00 at level  79,
+ MAXABS VN, W in domain  1:  0.3495449738E+02 at level  59,   0.8690994293E+00 at level  78,
+ MAXABS VN, W in domain  1:  0.3495446529E+02 at level  59,   0.8649254831E+00 at level  78,
+ MAXABS VN, W in domain  1:  0.3495442395E+02 at level  59,   0.8399530191E+00 at level  77,
+ integrate_nh: call advection  DOM: 1
+ mo_advection_vflux:upwind_vflux_ppm: maximum vertical CFL =  0.51235337E-02
+ nwp_nh_interface:: average |dPS/dt| =    9.567292 Pa/s in domain  1
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc at simulation time 2000-01-01T00:00:13.000 by PE 0
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc at simulation time 2000-01-01T00:00:12.000 by PE 0
+ 
+ Time step:        7, model time: 2000-01-01 00:00:14.000 forecast time 00D 00H00M14S
+ MAXABS VN, W in domain  1:  0.3495393139E+02 at level  59,   0.8628565620E+00 at level  77,
+ MAXABS VN, W in domain  1:  0.3495393883E+02 at level  59,   0.8215492251E+00 at level  77,
+ MAXABS VN, W in domain  1:  0.3495392671E+02 at level  59,   0.8501160206E+00 at level  76,
+ MAXABS VN, W in domain  1:  0.3495390118E+02 at level  59,   0.8454864990E+00 at level  76,
+ MAXABS VN, W in domain  1:  0.3495386656E+02 at level  59,   0.8114178376E+00 at level  75,
+ integrate_nh: call advection  DOM: 1
+ nwp_nh_interface:: average |dPS/dt| =    2.401861 Pa/s in domain  1
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc at simulation time 2000-01-01T00:00:15.000 by PE 0
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc at simulation time 2000-01-01T00:00:14.000 by PE 0
+ 
+ Time step:        8, model time: 2000-01-01 00:00:16.000 forecast time 00D 00H00M16S
+ MAXABS VN, W in domain  1:  0.3495339008E+02 at level  59,   0.8444929075E+00 at level  75,
+ MAXABS VN, W in domain  1:  0.3495340360E+02 at level  59,   0.8199216233E+00 at level  75,
+ MAXABS VN, W in domain  1:  0.3495339784E+02 at level  59,   0.8131430572E+00 at level  74,
+ MAXABS VN, W in domain  1:  0.3495337886E+02 at level  59,   0.8337696923E+00 at level  74,
+ MAXABS VN, W in domain  1:  0.3495335096E+02 at level  59,   0.7977620155E+00 at level  74,
+ integrate_nh: call advection  DOM: 1
+ mo_advection_vflux:upwind_vflux_ppm: maximum vertical CFL =  0.42315887E-02
+ nwp_nh_interface:: average |dPS/dt| =    2.045408 Pa/s in domain  1
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc at simulation time 2000-01-01T00:00:17.000 by PE 0
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc at simulation time 2000-01-01T00:00:16.000 by PE 0
+ 
+ Time step:        9, model time: 2000-01-01 00:00:18.000 forecast time 00D 00H00M18S
+ MAXABS VN, W in domain  1:  0.3495289014E+02 at level  59,   0.8053355864E+00 at level  73,
+Timer Run took 386 us
+Timer Run took 370 us
+Timer Run took 366 us
+Timer Run took 371 us
+Timer Run took 370 us
+Timer Run took 365 us
+Timer Run took 389 us
+Timer Run took 368 us
+Timer Run took 372 us
+Timer Run took 368 us
+Timer Run took 364 us
+Timer Run took 365 us
+Timer Run took 389 us
+Timer Run took 372 us
+Timer Run took 371 us
+Timer Run took 371 us
+Timer Run took 369 us
+Timer Run took 370 us
+Timer Run took 391 us
+Timer Run took 369 us
+Timer Run took 362 us
+Timer Run took 365 us
+Timer Run took 372 us
+Timer Run took 366 us
+Timer Run took 386 us
+Timer Run took 368 us
+ MAXABS VN, W in domain  1:  0.3495290978E+02 at level  59,   0.8191040450E+00 at level  73,
+ MAXABS VN, W in domain  1:  0.3495291039E+02 at level  59,   0.7794550584E+00 at level  73,
+ MAXABS VN, W in domain  1:  0.3495289796E+02 at level  59,   0.7933531889E+00 at level  72,
+ MAXABS VN, W in domain  1:  0.3495287672E+02 at level  59,   0.8064228061E+00 at level  72,
+ integrate_nh: call advection  DOM: 1
+ nwp_nh_interface:: average |dPS/dt| =    1.086661 Pa/s in domain  1
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc at simulation time 2000-01-01T00:00:19.000 by PE 0
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc at simulation time 2000-01-01T00:00:18.000 by PE 0
+ 
+ Time step:       10, model time: 2000-01-01 00:00:20.000 forecast time 00D 00H00M20S
+ MAXABS VN, W in domain  1:  0.3495243103E+02 at level  59,   0.7680757990E+00 at level  72,
+ MAXABS VN, W in domain  1:  0.3495245655E+02 at level  59,   0.7754320276E+00 at level  71,
+ MAXABS VN, W in domain  1:  0.3495246328E+02 at level  59,   0.7929171705E+00 at level  71,
+ MAXABS VN, W in domain  1:  0.3495245715E+02 at level  59,   0.7641791708E+00 at level  71,
+ MAXABS VN, W in domain  1:  0.3495244233E+02 at level  59,   0.7529214916E+00 at level  70,
+ integrate_nh: call advection  DOM: 1
+ mo_advection_vflux:upwind_vflux_ppm: maximum vertical CFL =  0.36118206E-02
+ nwp_nh_interface:: average |dPS/dt| =    0.585352 Pa/s in domain  1
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc at simulation time 2000-01-01T00:00:21.000 by PE 0
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc at simulation time 2000-01-01T00:00:20.000 by PE 0
+ 
+ Time step:       11, model time: 2000-01-01 00:00:22.000 forecast time 00D 00H00M22S
+ MAXABS VN, W in domain  1:  0.3495201108E+02 at level  59,   0.7772011437E+00 at level  70,
+ MAXABS VN, W in domain  1:  0.3495204218E+02 at level  59,   0.7607964016E+00 at level  70,
+ MAXABS VN, W in domain  1:  0.3495205478E+02 at level  59,   0.7226315330E+00 at level  69,
+ MAXABS VN, W in domain  1:  0.3495205475E+02 at level  59,   0.7584385337E+00 at level  69,
+ MAXABS VN, W in domain  1:  0.3495204621E+02 at level  59,   0.7573483296E+00 at level  69,
+ integrate_nh: call advection  DOM: 1
+ nwp_nh_interface:: average |dPS/dt| =    0.548578 Pa/s in domain  1
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc at simulation time 2000-01-01T00:00:23.000 by PE 0
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc at simulation time 2000-01-01T00:00:22.000 by PE 0
+ 
+ Time step:       12, model time: 2000-01-01 00:00:24.000 forecast time 00D 00H00M24S
+ MAXABS VN, W in domain  1:  0.3495162884E+02 at level  59,   0.7139328030E+00 at level  69,
+ MAXABS VN, W in domain  1:  0.3495166542E+02 at level  59,   0.7307298063E+00 at level  68,
+ MAXABS VN, W in domain  1:  0.3495168380E+02 at level  59,   0.7465818335E+00 at level  68,
+ MAXABS VN, W in domain  1:  0.3495168978E+02 at level  59,   0.7255540049E+00 at level  68,
+ MAXABS VN, W in domain  1:  0.3495168740E+02 at level  59,   0.6935435628E+00 at level  67,
+ integrate_nh: call advection  DOM: 1
+ mo_advection_vflux:upwind_vflux_ppm: maximum vertical CFL =  0.31592602E-02
+ nwp_nh_interface:: average |dPS/dt| =    0.943773 Pa/s in domain  1
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc at simulation time 2000-01-01T00:00:25.000 by PE 0
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc at simulation time 2000-01-01T00:00:24.000 by PE 0
+ 
+ Time step:       13, model time: 2000-01-01 00:00:26.000 forecast time 00D 00H00M26S
+ MAXABS VN, W in domain  1:  0.3495128336E+02 at level  59,   0.7247879006E+00 at level  67,
+ MAXABS VN, W in domain  1:  0.3495132520E+02 at level  59,   0.7256907521E+00 at level  67,
+Timer Run took 368 us
+Timer Run took 369 us
+Timer Run took 362 us
+Timer Run took 366 us
+Timer Run took 385 us
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_1_istep_1
+ Exit velocity_no_nproma_if_prop_lvn_only_1_istep_1
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_1_istep_1
+ Exit velocity_no_nproma_if_prop_lvn_only_1_istep_1
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_1_istep_1
+ Exit velocity_no_nproma_if_prop_lvn_only_1_istep_1
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_1_istep_1
+ Exit velocity_no_nproma_if_prop_lvn_only_1_istep_1
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_1_istep_1
+ Exit velocity_no_nproma_if_prop_lvn_only_1_istep_1
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_1_istep_1
+ Exit velocity_no_nproma_if_prop_lvn_only_1_istep_1
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_1_istep_1
+ Exit velocity_no_nproma_if_prop_lvn_only_1_istep_1
+Timer Run took 368 us
+Timer Run took 369 us
+Timer Run took 368 us
+Timer Run took 371 us
+Timer Run took 366 us
+Timer Run took 389 us
+Timer Run took 371 us
+Timer Run took 370 us
+Timer Run took 374 us
+Timer Run took 366 us
+Timer Run took 369 us
+ MAXABS VN, W in domain  1:  0.3495134915E+02 at level  59,   0.6912187759E+00 at level  67,
+ MAXABS VN, W in domain  1:  0.3495136092E+02 at level  59,   0.6894071670E+00 at level  66,
+ MAXABS VN, W in domain  1:  0.3495136448E+02 at level  59,   0.7113882049E+00 at level  66,
+ integrate_nh: call advection  DOM: 1
+ nwp_nh_interface:: average |dPS/dt| =    1.080914 Pa/s in domain  1
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc at simulation time 2000-01-01T00:00:27.000 by PE 0
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc at simulation time 2000-01-01T00:00:26.000 by PE 0
+ 
+ Time step:       14, model time: 2000-01-01 00:00:28.000 forecast time 00D 00H00M28S
+ MAXABS VN, W in domain  1:  0.3495097314E+02 at level  59,   0.7014115985E+00 at level  66,
+ MAXABS VN, W in domain  1:  0.3495102000E+02 at level  59,   0.6593080981E+00 at level  66,
+ MAXABS VN, W in domain  1:  0.3495104933E+02 at level  59,   0.6756260274E+00 at level  65,
+ MAXABS VN, W in domain  1:  0.3495106673E+02 at level  59,   0.6911086373E+00 at level  65,
+ MAXABS VN, W in domain  1:  0.3495107613E+02 at level  59,   0.6774444793E+00 at level  65,
+ integrate_nh: call advection  DOM: 1
+ mo_advection_vflux:upwind_vflux_ppm: maximum vertical CFL =  0.27616199E-02
+ nwp_nh_interface:: average |dPS/dt| =    0.572443 Pa/s in domain  1
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc at simulation time 2000-01-01T00:00:29.000 by PE 0
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc at simulation time 2000-01-01T00:00:28.000 by PE 0
+ 
+ Time step:       15, model time: 2000-01-01 00:00:30.000 forecast time 00D 00H00M30S
+ MAXABS VN, W in domain  1:  0.3495069704E+02 at level  59,   0.6313226136E+00 at level  65,
+ MAXABS VN, W in domain  1:  0.3495074895E+02 at level  59,   0.6532844512E+00 at level  64,
+ MAXABS VN, W in domain  1:  0.3495078376E+02 at level  59,   0.6660826343E+00 at level  64,
+ MAXABS VN, W in domain  1:  0.3495080699E+02 at level  59,   0.6517022184E+00 at level  64,
+ MAXABS VN, W in domain  1:  0.3495082253E+02 at level  59,   0.6081610493E+00 at level  64,
+ integrate_nh: call advection  DOM: 1
+ nwp_nh_interface:: average |dPS/dt| =    0.508814 Pa/s in domain  1
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc at simulation time 2000-01-01T00:00:30.000 by PE 0
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc at simulation time 2000-01-01T00:00:30.000 by PE 0
+ destruct_atmo_nonhydrostatic: start to clean up
+ mo_pp_scheduler::pp_scheduler_finalize: 
+ mo_nonhydro_state::destruct_nh_state: Destruction of NH state started
+ mo_nonhydro_state::destruct_nh_state: NH state destruction completed
+ mo_prepadv_state:destruct_prepadv_state: destruction of prep_adv state finished
+ mo_nwp_phy_state:destruct_nwp_phy_state: start to destruct 3D state vector
+ mo_nwp_phy_state:destruct_nwp_phy_state: destruction of 3D state vector finished
+ mo_nwp_lnd_state:destruct_nwp_lnd_state: Destruction of nwp land state started
+ mo_nwp_lnd_state:destruct_nwp_lnd_state: Destruction of nwp land state completed
+ destruct_atmo_nonhydrostatic: delete output variable lists
+ destruct_atmo_nonhydrostatic: finish statistics streams
+ destruct_atmo_nonhydrostatic: finalize meteogram output
+ destruct_atmo_nonhydrostatic: clean-up finished
+ 
+ Timer report
+ 
+ ------------------------------   -------   ------------   ------------   ------------   -------------   -------------   -------------    
+ name                             # calls   t_min          t_avg          t_max          total min (s)   total max (s)   total avg (s)    
+ ------------------------------   -------   ------------   ------------   ------------   -------------   -------------   -------------    
+ 
+ total                            1             38.3144s       38.3144s       38.3144s         38.314          38.314          38.314     
+  L integrate_nh                  15             2.0040s        2.2616s        2.7220s         33.924          33.924          33.924     
+     L nh_solve                   75            0.21121s       0.22848s       0.48349s         17.136          17.136          17.136     
+        L nh_solve.cellcomp       150           0.00733s       0.00804s       0.00932s          1.206           1.206           1.206     
+        L nh_solve.edgecomp       150           0.00769s       0.01328s       0.02089s          1.992           1.992           1.992     
+        L nh_solve.vnupd          150           0.01282s       0.02543s       0.04269s          3.814           3.814           3.814     
+        L nh_solve.vimpl          150           0.03086s       0.03164s       0.03269s          4.746           4.746           4.746     
+        L nh_solve.exch           300           0.00000s       0.00000s       0.00000s          0.000           0.000           0.000     
+     L nh_hdiff                   15            0.06562s       0.06671s       0.06803s          1.001           1.001           1.001     
+     L transport                  15            0.32800s       0.33147s       0.33810s          4.972           4.972           4.972     
+        L adv_horiz               15            0.26760s       0.27058s       0.27703s          4.059           4.059           4.059     
+           L adv_hflx             15            0.25168s       0.25483s       0.26107s          3.822           3.822           3.822     
+              L back_traj         45            0.00229s       0.00667s       0.01485s          0.300           0.300           0.300     
+        L adv_vert                15            0.05818s       0.05912s       0.05968s          0.887           0.887           0.887     
+           L adv_vflx             15            0.05206s       0.05291s       0.05350s          0.794           0.794           0.794     
+  L action                        15            0.00002s       0.00003s       0.00004s          0.000           0.000           0.000     
+ global_sum                       24            0.00000s       0.00000s       0.00000s          0.000           0.000           0.000     
+ ordglb_sum                       18            0.00000s       0.00009s       0.00149s          0.002           0.002           0.002     
+ wrt_output                       16            0.01317s       0.01737s       0.04064s          0.278           0.278           0.278     
+ physics                          16            0.46125s       0.69134s        1.0247s         11.062          11.062          11.062     
+  L phys_acc_sync                 16            0.00617s       0.01649s       0.03586s          0.264           0.264           0.264     
+  L satad                         16            0.00474s       0.03425s       0.03724s          0.548           0.548           0.548     
+  L phys_u_v                      16            0.00769s       0.00782s       0.00793s          0.125           0.125           0.125     
+  L nwp_turbulence                31            0.00487s       0.09309s       0.18815s          2.886           2.886           2.886     
+     L nwp_turbtrans              16            0.00487s       0.00491s       0.00502s          0.079           0.079           0.079     
+     L nwp_turbdiff               15            0.14508s       0.14634s       0.14701s          2.195           2.195           2.195     
+  L nwp_surface                   15            0.00021s       0.00022s       0.00024s          0.003           0.003           0.003     
+  L nwp_microphysics              15            0.14227s       0.17935s       0.18417s          2.690           2.690           2.690     
+  L rediag_prog_vars              16            0.01212s       0.04115s       0.04370s          0.658           0.658           0.658     
+  L nwp_convection                9             0.26142s       0.27158s       0.30409s          2.444           2.444           2.444     
+  L sso                           5             0.20981s       0.21362s       0.22142s          1.068           1.068           1.068     
+  L cloud_cover                   9             0.04040s       0.04082s       0.04338s          0.367           0.367           0.367     
+ nh_diagnostics                   95            0.00000s       0.03077s       0.14803s          2.923           2.923           2.923     
+ diagnose_pres_temp               36            0.00000s       0.01154s       0.01535s          0.415           0.415           0.415     
+ model_init                       3             0.69284s        4.5643s       11.8979s         13.693          13.693          13.693     
+  L compute_domain_decomp         1             0.07025s       0.07025s       0.07025s          0.070           0.070           0.070     
+  L compute_intp_coeffs           1             0.57025s       0.57025s       0.57025s          0.570           0.570           0.570     
+  L init_ext_data                 1             0.00253s       0.00253s       0.00253s          0.003           0.003           0.003     
+  L init_nwp_phy                  1             0.18581s       0.18581s       0.18581s          0.186           0.186           0.186     
+ upper_atmosphere                 2             0.00000s       0.00021s       0.00042s          0.000           0.000           0.000     
+  L upatmo_construction           1             0.00042s       0.00042s       0.00042s          0.000           0.000           0.000     
+  L upatmo_destruction            1             0.00000s       0.00000s       0.00000s          0.000           0.000           0.000     
+ write_restart                    2             0.00003s       0.00028s       0.00053s          0.001           0.001           0.001     
+  L write_restart_setup           1             0.00050s       0.00050s       0.00050s          0.001           0.001           0.001     
+     L write_restart_collectors   208           0.00000s       0.00000s       0.00044s          0.000           0.000           0.000     
+        L write_restart_indices   3             0.00008s       0.00015s       0.00022s          0.000           0.000           0.000     
+ -------------------------------------------------------------------------------------------------------------------------------------    
+ 
+ mo_ext_data_state:destruct_ext_data: Destruction of data structure for external data started
+ mo_ext_data_state:destruct_ext_data: Destruction of data structure for external data finished
+ mo_interpolation:destruct_int_state: start to destruct int state
+ mo_interpolation:destruct_int_state: destruction of interpolation state finished
+ mo_atmo_model:destruct_atmo_model: destruct_2d_interpol_state is done
+ mo_alloc_patches:destruct_comm_patterns: start
+ mo_alloc_patches:destruct_comm_patterns: destruct_comm_patterns finished
+ mo_alloc_patches:destruct_patches: start
+ mo_alloc_patches:destruct_patches: destruct_patches finished
+ mo_alloc_patches:destruct_patches: start
+ mo_alloc_patches:destruct_patches: destruct_patches finished
+ mo_atmo_model:destruct_atmo_model: destruct_patches is done
+ mo_atmo_model:destruct_atmo_model: clean-up finished
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_1_istep_1
+ Exit velocity_no_nproma_if_prop_lvn_only_1_istep_1
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Enter velocity_no_nproma_if_prop_lvn_only_0_istep_2
+ Exit velocity_no_nproma_if_prop_lvn_only_0_istep_2
++ set +x
+Mon Apr 14 00:56:30 CEST 2025
+OK
+============================
+Script run successfully:  OK
+============================

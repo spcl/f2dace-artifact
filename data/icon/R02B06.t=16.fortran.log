@@ -1,0 +1,1416 @@
+drwxr-xr-x 2 pmazumde g34 4096 Apr 14 18:52 /scratch/pmazumde/paper-icon-dace-baseline/icon-dace/build/experiments/exclaim_ape_R02B04
+cp: cannot stat '/scratch/pmazumde/paper-icon-dace-baseline/icon-dace/build/data/pmod.txt': No such file or directory
+no_of_models=1
+-rwxr-xr-x 1 pmazumde g34 63497088 Apr 14 10:57 /scratch/pmazumde/paper-icon-dace-baseline/icon-dace/build/bin/icon
+	linux-vdso.so.1 (0x00007ffff7ffa000)
+	libopenblas.so.0 => /scratch/wbenjami/dafy/sdfg_gpu/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/openblas-0.3.23-ara3inpfwh3myjbgqpaiqye5qc2b6wnc/lib/libopenblas.so.0 (0x00007ffff6fb3000)
+	libnetcdff.so.7 => /scratch/wbenjami/dafy/sdfg_gpu/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/netcdf-fortran-4.6.0-p7jdeag2groulzasdfqnokx2qiris3zh/lib/libnetcdff.so.7 (0x00007ffff6d16000)
+	libnetcdf.so.15 => /lib64/libnetcdf.so.15 (0x00007ffff69ca000)
+	libgfortran.so.5 => /apps/ault/spack/opt/spack/linux-centos8-zen/gcc-8.4.1/gcc-10.2.0-fqf4ze2mfclmx6e7ehrjckznpoqnevmi/lib64/libgfortran.so.5 (0x00007ffff6512000)
+	libm.so.6 => /lib64/libm.so.6 (0x00007ffff6190000)
+	libgomp.so.1 => /apps/ault/spack/opt/spack/linux-centos8-zen/gcc-8.4.1/gcc-10.2.0-fqf4ze2mfclmx6e7ehrjckznpoqnevmi/lib64/libgomp.so.1 (0x00007ffff5f51000)
+	libgcc_s.so.1 => /apps/ault/spack/opt/spack/linux-centos8-zen/gcc-8.4.1/gcc-10.2.0-fqf4ze2mfclmx6e7ehrjckznpoqnevmi/lib64/libgcc_s.so.1 (0x00007ffff5d39000)
+	libquadmath.so.0 => /apps/ault/spack/opt/spack/linux-centos8-zen/gcc-8.4.1/gcc-10.2.0-fqf4ze2mfclmx6e7ehrjckznpoqnevmi/lib64/libquadmath.so.0 (0x00007ffff5af2000)
+	libpthread.so.0 => /lib64/libpthread.so.0 (0x00007ffff58d2000)
+	libc.so.6 => /lib64/libc.so.6 (0x00007ffff550d000)
+	libnetcdf.so.19 => /scratch/wbenjami/dafy/sdfg_gpu/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/netcdf-c-4.9.2-zynxjqlltpkunevnlaltrm7kfqlwjgpu/lib/libnetcdf.so.19 (0x00007ffff5152000)
+	libdl.so.2 => /lib64/libdl.so.2 (0x00007ffff4f4e000)
+	libmfhdf.so.0 => /lib64/libmfhdf.so.0 (0x00007ffff4d25000)
+	libdf.so.0 => /lib64/libdf.so.0 (0x00007ffff4a7c000)
+	libjpeg.so.62 => /lib64/libjpeg.so.62 (0x00007ffff4813000)
+	libsz.so.2 => /lib64/libsz.so.2 (0x00007ffff4610000)
+	libhdf5_hl.so.100 => /lib64/libhdf5_hl.so.100 (0x00007ffff43ec000)
+	libhdf5.so.103 => /lib64/libhdf5.so.103 (0x00007ffff3e61000)
+	libz.so.1 => /lib64/libz.so.1 (0x00007ffff3c4a000)
+	libcurl.so.4 => /lib64/libcurl.so.4 (0x00007ffff39bc000)
+	libtirpc.so.3 => /lib64/libtirpc.so.3 (0x00007ffff3789000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007ffff7dd0000)
+	libstdc++.so.6 => /apps/ault/spack/opt/spack/linux-centos8-zen/gcc-8.4.1/gcc-10.2.0-fqf4ze2mfclmx6e7ehrjckznpoqnevmi/lib64/libstdc++.so.6 (0x00007ffff33b6000)
+	libhdf5_hl.so.310 => /scratch/wbenjami/dafy/sdfg_gpu/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/hdf5-1.14.1-2-mcrete3fq77pzt5w5ho36pplg7cwzajp/lib/libhdf5_hl.so.310 (0x00007ffff3192000)
+	libhdf5.so.310 => /scratch/wbenjami/dafy/sdfg_gpu/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/hdf5-1.14.1-2-mcrete3fq77pzt5w5ho36pplg7cwzajp/lib/libhdf5.so.310 (0x00007ffff2b38000)
+	libbz2.so.1 => /lib64/libbz2.so.1 (0x00007ffff2927000)
+	libzstd.so.1 => /scratch/wbenjami/dafy/sdfg_gpu/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/zstd-1.5.5-u7mtgju6r3n2vqwylfjhctmlq4j2cjwb/lib/libzstd.so.1 (0x00007ffff263c000)
+	libaec.so.0 => /lib64/libaec.so.0 (0x00007ffff2434000)
+	libnghttp2.so.14 => /lib64/libnghttp2.so.14 (0x00007ffff220d000)
+	libidn2.so.0 => /lib64/libidn2.so.0 (0x00007ffff1fef000)
+	libssh.so.4 => /lib64/libssh.so.4 (0x00007ffff1d80000)
+	libpsl.so.5 => /lib64/libpsl.so.5 (0x00007ffff1b6f000)
+	libssl.so.1.1 => /lib64/libssl.so.1.1 (0x00007ffff18db000)
+	libcrypto.so.1.1 => /lib64/libcrypto.so.1.1 (0x00007ffff13f5000)
+	libgssapi_krb5.so.2 => /lib64/libgssapi_krb5.so.2 (0x00007ffff11a0000)
+	libkrb5.so.3 => /lib64/libkrb5.so.3 (0x00007ffff0eb7000)
+	libk5crypto.so.3 => /lib64/libk5crypto.so.3 (0x00007ffff0ca0000)
+	libcom_err.so.2 => /lib64/libcom_err.so.2 (0x00007ffff0a9c000)
+	libldap-2.4.so.2 => /lib64/libldap-2.4.so.2 (0x00007ffff084e000)
+	liblber-2.4.so.2 => /lib64/liblber-2.4.so.2 (0x00007ffff063e000)
+	libbrotlidec.so.1 => /lib64/libbrotlidec.so.1 (0x00007ffff0431000)
+	libunistring.so.2 => /lib64/libunistring.so.2 (0x00007ffff00b0000)
+	librt.so.1 => /lib64/librt.so.1 (0x00007fffefea8000)
+	libkrb5support.so.0 => /lib64/libkrb5support.so.0 (0x00007fffefc97000)
+	libkeyutils.so.1 => /lib64/libkeyutils.so.1 (0x00007fffefa93000)
+	libresolv.so.2 => /lib64/libresolv.so.2 (0x00007fffef87c000)
+	libsasl2.so.3 => /lib64/libsasl2.so.3 (0x00007fffef65e000)
+	libbrotlicommon.so.1 => /lib64/libbrotlicommon.so.1 (0x00007fffef43d000)
+	libselinux.so.1 => /lib64/libselinux.so.1 (0x00007fffef213000)
+	libcrypt.so.1 => /lib64/libcrypt.so.1 (0x00007fffeefea000)
+	libpcre2-8.so.0 => /lib64/libpcre2-8.so.0 (0x00007fffeed66000)
+Mon Apr 14 18:52:02 CEST 2025
++ ulimit -s 500000000
++ /scratch/wbenjami/dafy/icon/build/gpu_vanilla/spack-c2sm/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/nvhpc-23.3-isn5lko6ajk6errkj5dm3iqipkipkkvi/Linux_x86_64/23.3/comm_libs/mpi/bin//mpiexec -n 1 /scratch/pmazumde/paper-icon-dace-baseline/icon-dace/build/bin/icon
+mo_mpi::start_mpi No MPI: Single processor run.
+ mo_mpi::start_mpi: Running globally OpenMP mode.
+ mo_mpi::start_mpi global_no_of_threads is 16
+
+ Single processor run.
+
+ executable: /scratch/pmazumde/paper-icon-dace-baseline/icon-dace/build/bin/icon
+ date: 20250414
+ time: 185202
+ user: Pratyai Mazumder, ETHZ (pmazumde)
+ host: ault10 (Linux 4.18.0-305.19.1.el8_4.x86_64 x86_64)
+ version: 2024.10
+ revision: unknown
+ repository: unknown
+ local branch: unknown
+ application libraries:
+   ECRAD: unknown
+ infrastructure and support libraries:
+   MATH-INTERPOLATION: unknown
+   MATH-SUPPORT: unknown
+   FORTRAN-SUPPORT: unknown
+   MTIME: unknown
+   CDI:
+     version: 2.4.0
+     revision: unknown
+ other libraries:
+   NetCDF-C: 4.7.0
+ compilers:
+   Fortran: GNU 10.2.0 (GCC version 10.2.0)
+   C: GNU 10.2.0
+ probtest metadata:
+   Revision: unknown
+   Branch: unknown
+ 
+ master_control: start model initialization.
+ set_nproma_nblocks: Will recompute nproma based on nblocks_c
+ set_nproma_nblocks_sub: Using namelist nproma_sub=     48
+ check_parallel_configuration: num_io_procs has no effect if the model is compiled with the NOMPI compiler directive
+ check_parallel_configuration: --> num_io_procs set to 0
+ check_parallel_configuration: num_prefetch_proc has no effect if the model is compiled with the NOMPI compiler directive
+ check_parallel_configuration: --> num_prefetch_proc set to 0
+ mo_dbg_nml/read_dbg_namelist:: read debug namelist dbg_index_nml
+ 
+ mo_advection_nml: read_transport_nml: Evaluate the number of names in transport_nml/tracer_names
+ ---                                      number of named tracers :         0
+ mo_advection_nml: read_transport_nml: Setting default names for tracers without names.
+ ---                              number of tracers without names :         5
+ ---                                   tracer name q1 in position :         1
+ ---                                   tracer name q2 in position :         2
+ ---                                   tracer name q3 in position :         3
+ ---                                   tracer name q4 in position :         4
+ ---                                   tracer name q5 in position :         5
+ 
+ mo_nwp_phy_nml:read_nwp_phy_namelist: Warning: itype_z0 is reset to 1 because surface scheme is turned off
+ 
+ Model time step          : PT02.000S
+ 
+ 
+ Checkpoint interval      : P1D
+ Restart interval         : P1D
+ 
+ This is not a RESTART run ...
+ IAU time shift: PT00.000S
+ 
+ Calendar: Proleptic Gregorian
+ 
+ Experiment reference date: 2000-01-01T00:00:00Z
+ Experiment start date    : 2000-01-01T00:00:00Z
+ Experiment stop date     : 2000-01-01T00:00:30.000
+ 
+ Experiment stop date     : 2000-01-01T00:00:30.000
+ Start date    : 2000-01-01T00:00:00Z
+ Stop date     : 2000-01-01T00:00:30.000
+ 
+ mo_nml_crosscheck::atm_crosscheck: NetCDF output of floating point variables will be in 64-bit accuracy
+ mo_nml_crosscheck::atm_crosscheck: --> use_dp_mpi2io is changed to .TRUE. to allow 64-bit accuracy in the NetCDF output.
+ mo_nml_crosscheck::atm_crosscheck: namelist parameter 'activate_sync_timers' has been set to .TRUE., because global 'timers_level' is > 9.
+ set_mpi_work_communicators: num_io_procs_radar has no effect if there are no radar-active domains!
+ set_mpi_work_communicators: --> num_io_procs_radar set to 0
+ mo_model_domimp_patches:import_pre_patches: start to import patches
+ mo_model_domimp_patches:read_pre_patch: start to init patch_pre
+ Read grid file /scratch/pmazumde/icon-grids/icon_grid_0052_R02B06_G.nc
+ mo_model_domimp_patches:read_pre_patch: grid uuid: 3f0539d6-2027-11ef-a387-79a1f3f7b415
+ mo_model_domimp_patches:read_pre_patch: generating center of patch    1:  252
+ mo_model_domimp_patches:read_pre_patch: generating subcenter of patch    1:    0
+ mo_model_domimp_patches:read_pre_patch: number_of_grid_used of patch    1:   52
+ mo_model_domimp_patches:read_pre_patch: URI of patch    1: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0052/icon_grid_0052_R02B06_G.nc
+ mo_model_domimp_patches:read_pre_patch: read_patches finished
+ mo_subdivision:decompose_domain: start of domain decomposition
+ mo_subdivision:decompose_domain: Is this taking a long time? Consider adding macro definition HAVE_SLOW_PASSIVE_TARGET_ONESIDED to compile time settings.
+ No splitting of processor grid
+ mo_setup_subdivision::divide_patch: dividing patch
+ New nproma::  327680
+ Secondary nproma (nproma_sub)::      48
+ mo_setup_subdivision: divide_patch: erase negative refin_ctrl flags in patch 1
+ mo_model_domimp_patches:read_remaining_patch: Read gridmap file /scratch/pmazumde/icon-grids/icon_grid_0052_R02B06_G.nc
+ mo_read_netcdf_distributed::distrib_nf_open: /scratch/pmazumde/icon-grids/icon_grid_0052_R02B06_G.nc
+ mo_model_domimp_patches:read_remaining_patch: read finished
+ build_decomposition: Done.
+ mo_icon_output_tools:init_io_processes: synchronous namelist I/O scheme is enabled.
+ RBF scale factors for cells/edges/vertices, domain   1:  0.50000 0.50000 0.50000
+ RBF scale factors for velocity boundary interpolation   1:  0.50000
+ mo_intp_state:construct_2d_interpol_state: start to construct int_state
+ mo_intp_state:construct_2d_interpol_state: constructing int_state for patch 1
+ mo_intp_state:allocate_int_state: memory allocation finished
+ mo_intp_rbf_coeffs:rbf_vec_compute_coeff_cell: 
+ mo_intp_rbf_coeffs:rbf_vec_compute_coeff_vertex: 
+ mo_intp_rbf_coeffs:rbf_vec_compute_coeff_edge: 
+ mo_interpolation:tri_quadrature_pts: 
+ mo_intp_coeffs:calculate_tangent_plane_at_edge: 
+ mo_interpolation:init_tplane_c_sphere: 
+ mo_intp_coeffs_lsq_bln:lsq_stencil_create: 
+ mo_intp_coeffs_lsq_bln:create_stencil_c3: create 3-point stencil
+ mo_interpolation:lsq_compute_coeff_cell_sphere: 
+ mo_intp_coeffs_lsq_bln:lsq_stencil_create: 
+ mo_intp_coeffs_lsq_bln:create_stencil_c9: create 9-point stencil
+ mo_interpolation:lsq_compute_coeff_cell_sphere: 
+ mo_intp_state:construct_2d_interpol_state: construction of interpolation state finished
+ setup_phys_patches: Physical domain    1 belongs to logical domain    1
+ mo_dynamics_config:setup_dynamics_config: Set time level indices
+ ldynamics  =  .TRUE.: 2 time levels used for progn. dynamics  variables -> nnew /= nnow
+ ltransport =  .TRUE.: 2 time levels used for progn. transport variables -> nnew_rcf /= nnow_rcf
+ ---                                                 nnow    (01) :         1
+ ---                                                 nnew    (01) :         2
+ ---                                                 nold    (01) :         3
+ ---                                                 nnow_rcf(01) :         1
+ ---                                                 nnew_rcf(01) :         2
+ mo_lnd_nwp_config::configure_lnd_nwp: Number of hydrological active soil layers ibot_w_so is set to:  6
+ Surface tile setup
+ 
+ tileName | GRIB2 tileId | tileAtts | ICON tile Ids |  
+ -------- | ------------ | -------- | ------------- |  
+ 
+ undef    | 0            | 0,       | 1,            |  
+  
+ mo_ext_data_state:construct_ext_data: Construction of data structure for external data started
+ 
+ adding new var_list ext_data_atm_D01
+ 
+ adding new var_list ext_data_atm_td_D01
+ mo_ext_data_state:construct_ext_data: Construction of data structure for external data finished
+ mo_ext_data_init:init_ext_data: Start
+ mo_ext_data_init:init_ext_data: Running with analytical topography
+ (mo_nh_testcases) init_nh_testtopo:: running Aqua-Planet Experiment with non-hydrostatic atm. dynamics and NWP physics
+ SLEVE coord: Coordinate setup finished
+ flat coordinate surfaces starting at level  50
+ Nominal heights of coordinate half levels and layer thicknesses (m):
+ jk, vct_a, dvct:    1   75000.000    2500.062
+ jk, vct_a, dvct:    2   72499.938    2120.077
+ jk, vct_a, dvct:    3   70379.861    1973.825
+ jk, vct_a, dvct:    4   68406.037    1873.407
+ jk, vct_a, dvct:    5   66532.630    1794.666
+ jk, vct_a, dvct:    6   64737.964    1728.783
+ jk, vct_a, dvct:    7   63009.181    1671.503
+ jk, vct_a, dvct:    8   61337.677    1620.434
+ jk, vct_a, dvct:    9   59717.243    1574.090
+ jk, vct_a, dvct:   10   58143.153    1531.483
+ jk, vct_a, dvct:   11   56611.670    1491.918
+ jk, vct_a, dvct:   12   55119.752    1454.889
+ jk, vct_a, dvct:   13   53664.863    1420.013
+ jk, vct_a, dvct:   14   52244.850    1386.992
+ jk, vct_a, dvct:   15   50857.858    1355.591
+ jk, vct_a, dvct:   16   49502.267    1325.621
+ jk, vct_a, dvct:   17   48176.646    1296.923
+ jk, vct_a, dvct:   18   46879.723    1269.369
+ jk, vct_a, dvct:   19   45610.354    1242.848
+ jk, vct_a, dvct:   20   44367.505    1217.266
+ jk, vct_a, dvct:   21   43150.239    1192.543
+ jk, vct_a, dvct:   22   41957.696    1168.609
+ jk, vct_a, dvct:   23   40789.087    1145.401
+ jk, vct_a, dvct:   24   39643.685    1122.866
+ jk, vct_a, dvct:   25   38520.819    1100.956
+ jk, vct_a, dvct:   26   37419.863    1079.627
+ jk, vct_a, dvct:   27   36340.236    1058.842
+ jk, vct_a, dvct:   28   35281.394    1038.564
+ jk, vct_a, dvct:   29   34242.830    1018.763
+ jk, vct_a, dvct:   30   33224.066     999.410
+ jk, vct_a, dvct:   31   32224.657     980.478
+ jk, vct_a, dvct:   32   31244.179     961.942
+ jk, vct_a, dvct:   33   30282.237     943.782
+ jk, vct_a, dvct:   34   29338.455     925.976
+ jk, vct_a, dvct:   35   28412.479     908.504
+ jk, vct_a, dvct:   36   27503.975     891.350
+ jk, vct_a, dvct:   37   26612.625     874.495
+ jk, vct_a, dvct:   38   25738.129     857.926
+ jk, vct_a, dvct:   39   24880.204     841.626
+ jk, vct_a, dvct:   40   24038.578     825.582
+ jk, vct_a, dvct:   41   23212.996     809.781
+ jk, vct_a, dvct:   42   22403.215     794.210
+ jk, vct_a, dvct:   43   21609.005     778.857
+ jk, vct_a, dvct:   44   20830.148     763.712
+ jk, vct_a, dvct:   45   20066.437     748.762
+ jk, vct_a, dvct:   46   19317.674     733.999
+ jk, vct_a, dvct:   47   18583.676     719.411
+ jk, vct_a, dvct:   48   17864.265     704.988
+ jk, vct_a, dvct:   49   17159.277     690.723
+ jk, vct_a, dvct:   50   16468.554     676.605
+ jk, vct_a, dvct:   51   15791.949     662.625
+ jk, vct_a, dvct:   52   15129.325     648.774
+ jk, vct_a, dvct:   53   14480.551     635.044
+ jk, vct_a, dvct:   54   13845.507     621.427
+ jk, vct_a, dvct:   55   13224.080     607.913
+ jk, vct_a, dvct:   56   12616.167     594.494
+ jk, vct_a, dvct:   57   12021.673     581.162
+ jk, vct_a, dvct:   58   11440.510     567.908
+ jk, vct_a, dvct:   59   10872.602     554.724
+ jk, vct_a, dvct:   60   10317.878     541.600
+ jk, vct_a, dvct:   61    9776.278     528.528
+ jk, vct_a, dvct:   62    9247.750     515.497
+ jk, vct_a, dvct:   63    8732.253     502.500
+ jk, vct_a, dvct:   64    8229.754     489.524
+ jk, vct_a, dvct:   65    7740.229     476.561
+ jk, vct_a, dvct:   66    7263.668     463.599
+ jk, vct_a, dvct:   67    6800.069     450.625
+ jk, vct_a, dvct:   68    6349.444     437.629
+ jk, vct_a, dvct:   69    5911.815     424.595
+ jk, vct_a, dvct:   70    5487.221     411.508
+ jk, vct_a, dvct:   71    5075.712     398.354
+ jk, vct_a, dvct:   72    4677.358     385.114
+ jk, vct_a, dvct:   73    4292.244     371.768
+ jk, vct_a, dvct:   74    3920.476     358.293
+ jk, vct_a, dvct:   75    3562.183     344.665
+ jk, vct_a, dvct:   76    3217.518     330.853
+ jk, vct_a, dvct:   77    2886.665     316.825
+ jk, vct_a, dvct:   78    2569.840     302.539
+ jk, vct_a, dvct:   79    2267.301     287.948
+ jk, vct_a, dvct:   80    1979.353     272.995
+ jk, vct_a, dvct:   81    1706.358     257.606
+ jk, vct_a, dvct:   82    1448.753     241.690
+ jk, vct_a, dvct:   83    1207.063     225.130
+ jk, vct_a, dvct:   84     981.933     207.763
+ jk, vct_a, dvct:   85     774.170     189.367
+ jk, vct_a, dvct:   86     584.802     169.607
+ jk, vct_a, dvct:   87     415.195     147.947
+ jk, vct_a, dvct:   88     267.248     123.415
+ jk, vct_a, dvct:   89     143.833      93.833
+ jk, vct_a, dvct:   90      50.000      50.000
+ jk, vct_a, dvct:   91       0.000       0.000
+ parallel calculation of vgrid UUID. Generated UUID: 606fb1ab-a2a5-d494-0496-410e4fee2240
+ mo_advection_utils::init_tracer_settings: Attention: NWP physics is used, ntracer is automatically reset to   6
+ mo_nonhydrostatic_config:configure_nonhydrostatic: Domain   1; computation of moist physics processes starts in layer   42
+ mo_nonhydrostatic_config:configure_nonhydrostatic: Domain   1; high- and mid-level clouds in layers above   66  80
+ Index list generation - number of land tiles:    1
+ Total number of tiles:    1
+ Number of land points in domain  1:         0
+ Number of sea points in domain  1:    327680
+ Number of lake points in domain  1:         0
+ Number of points in tile 1:         0
+ Number of corrected false glacier points in domain  1:         0
+ Time intervals for calling NWP physics on patch            1
+ 
+ Process | dt user [=> final] |  
+ ------- | ------------------ |  
+ 
+ conv    |    4.00            |  
+ ccov    |    4.00            |  
+ gwd     |    8.00            |  
+ fastphy |    2.00            |  
+  
+ mo_atm_phy_nwp_config:configure_atm_phy_nwp: itune_o3 is reset to 0 because irad_o3 is not 7, 79 or 97
+ Event-setup for phyNwpEventGroup on patch  1
+ 
+ eventName | enabled | startDate                | endDate                  | intvl     |  
+ --------- | ------- | ------------------------ | ------------------------ | --------- |  
+ 
+ conv      | T       | [2000-01-01T00:00:02.000 | 2000-01-01T00:00:30.000] | PT04.000S |  
+ ccov      | T       | [2000-01-01T00:00:02.000 | 2000-01-01T00:00:30.000] | PT04.000S |  
+ rad       | F       | ]2000-01-01T00:00:02.000 | 2000-01-01T00:00:02.000] | PT12.000S |  
+ sso       | F       | ]2000-01-01T00:00:02.000 | 2000-01-01T00:00:02.000] | PT20M     |  
+ gwd       | T       | [2000-01-01T00:00:02.000 | 2000-01-01T00:00:30.000] | PT08.000S |  
+ satad     | T       | [2000-01-01T00:00:02.000 | 2000-01-01T00:00:30.000] | PT02.000S |  
+ turb      | T       | [2000-01-01T00:00:02.000 | 2000-01-01T00:00:30.000] | PT02.000S |  
+ gscp      | T       | [2000-01-01T00:00:02.000 | 2000-01-01T00:00:30.000] | PT02.000S |  
+ sfc       | F       | ]2000-01-01T00:00:02.000 | 2000-01-01T00:00:02.000] | PT02.000S |  
+ radheat   | F       | ]2000-01-01T00:00:02.000 | 2000-01-01T00:00:02.000] | PT02.000S |  
+  
+ atm_phy_nwp:configure_ww: Domain   1; ih_500hPa, ihb500hPa, ih_700hPa, ih_850hPa, ih_950hPa, ihb950hPa   70  70  76  82  86  87
+ atm_phy_nwp:configure_ww: Domain   1; ifog_temp, ifog_wind   84  87
+ mo_nonhydro_state::construct_nh_state: Construction of NH state started
+ 
+ adding new var_list nh_state_prog_of_domain_01_and_timelev_01
+ 
+ adding new var_list nh_state_prog_of_domain_01_and_timelev_02
+ 
+ adding new var_list nh_state_diag_of_domain_01
+ 
+ adding new var_list nh_state_metrics_of_domain_01
+ 
+ adding new var_list nh_state_ref_of_domain_01
+ mo_nonhydro_state::construct_nh_state: NH state construction completed
+ 
+ adding new var_list nh_state_opt_diag_of_domain_01
+ 
+ adding new var_list nh_state_opt_diag_z_of_domain_01
+ 
+ adding new var_list nh_state_opt_diag_p_of_domain_01
+ 
+ adding new var_list nh_state_opt_diag_i_of_domain_01
+ 
+ adding new var_list nh_accumulation_for_ProgAndDiag_of_domain_01
+ 
+ adding new var_list prepadv_of_domain_01
+ mo_prepadv_state:construct_prepadv_state: construction of prep_adv state finished
+ mo_nwp_phy_state:construct_nwp_state: start to construct 3D state vector
+ 
+ adding new var_list prm_diag_of_domain_01
+ mo_nwp_phy_state:construct_nwp_phy_diag: construction of NWP physical fields finished
+ 
+ adding new var_list prm_tend_of_domain_01
+ mo_nwp_phy_state:construct_nwp_phy_tend: construction of NWP physical tendency fields finished
+ 
+ adding new var_list prm_stch_of_domain_01
+ mo_nwp_phy_state:construct_nwp_state: construction of state vector finished
+ mo_nwp_lnd_state:construct_nwp_lnd_state: land state construction started
+ 
+ adding new var_list lnd_prog_of_domain_01_and_timelev_01
+ 
+ adding new var_list wtr_prog_of_domain_01_and_timelev_01
+ 
+ adding new var_list lnd_prog_of_domain_01_and_timelev_02
+ 
+ adding new var_list wtr_prog_of_domain_01_and_timelev_02
+ 
+ adding new var_list lnd_diag_of_domain_01
+ mo_nwp_lnd_state:construct_nwp_lnd_state: land state construction completed
+ 
+ adding new var_list nh_state_tracer_of_domain_01_and_timelev_01
+ 
+ adding new var_list nh_state_tracer_of_domain_01_and_timelev_02
+ Tracer meta-information for patch            1
+ 
+ VarName | Tracer ID | feedback | in list trAdvect | in list trNotAdvect | in list trHydroMass | slev | substep range | nadv_substeps |  
+ ------- | --------- | -------- | ---------------- | ------------------- | ------------------- | ---- | ------------- | ------------- |  
+ 
+ qv.TL1  |   1       | X        | X                |                     |                     |   1  |   1/ 41       |   3           |  
+ qc.TL1  |   2       | X        | X                |                     | X                   |  42  | -- / --       | --            |  
+ qi.TL1  |   3       | X        | X                |                     | X                   |  42  | -- / --       | --            |  
+ qr.TL1  |   4       |          | X                |                     | X                   |  42  | -- / --       | --            |  
+ qs.TL1  |   5       |          | X                |                     | X                   |  42  | -- / --       | --            |  
+ qg.TL1  |   6       |          | X                |                     | X                   |  42  | -- / --       | --            |  
+  
+ mo_vertical_grid:set_nh_metrics: Domain   1; end index of Rayleigh damping layer for w:   15
+ mo_vertical_grid: Damping coefficient for w; diffusion enhancement coefficient:
+ mo_vertical_grid: level    1, half-level height 75000.0  0.10000E+00  0.24000E+02
+ mo_vertical_grid: level    2, half-level height 72499.9  0.63728E-01  0.15866E+02
+ mo_vertical_grid: level    3, half-level height 70379.9  0.39420E-01  0.10142E+02
+ mo_vertical_grid: level    4, half-level height 68406.0  0.23745E-01  0.64362E+01
+ mo_vertical_grid: level    5, half-level height 66532.6  0.14165E-01  0.41902E+01
+ mo_vertical_grid: level    6, half-level height 64738.0  0.84607E-02  0.28713E+01
+ mo_vertical_grid: level    7, half-level height 63009.2  0.50903E-02  0.21050E+01
+ mo_vertical_grid: level    8, half-level height 61337.7  0.30937E-02  0.16590E+01
+ mo_vertical_grid: level    9, half-level height 59717.2  0.19018E-02  0.13976E+01
+ mo_vertical_grid: level   10, half-level height 58143.2  0.11828E-02  0.12427E+01
+ mo_vertical_grid: level   11, half-level height 56611.7  0.74419E-03  0.11499E+01
+ mo_vertical_grid: level   12, half-level height 55119.8  0.47348E-03  0.10937E+01
+ mo_vertical_grid: level   13, half-level height 53664.9  0.30450E-03  0.10592E+01
+ mo_vertical_grid: level   14, half-level height 52244.9  0.19785E-03  0.10378E+01
+ mo_vertical_grid: level   15, half-level height 50857.9  0.12983E-03  0.10244E+01
+ mo_vertical_grid:set_nh_metrics: Maximum vertical wind offcentering:   0.1500
+ mo_vertical_grid:set_nh_metrics: Maximum slope:   0.0000
+ mo_vertical_grid:set_nh_metrics: Maximum height difference between adjacent points:      0.0
+ (mo_nh_testcases) init_nh_testcase:: End setup non-hydrostatic APE test (APE_nwp, APE_aes, APE_nh, APEc_nh)
+ 
+ Output on pressure/height levels and/or isentropes: domain 1
+ selected pressure levels: 
+  10000.00,  20000.00,  25000.00,  30000.00,  50000.00,
+  70000.00,  85000.00,  90000.00,  95000.00, 100000.00,
+ 
+ mo_name_list_output_init::init_name_list_output: Number of name list output files:    2
+
+output "default", does not write ready files:
+ 
+ model step   model date                filename                                           I/O PE   output date               #      open   close    
+ ----------   -----------------------   ------------------------------------------------   ------   -----------------------   ----   ----   -----    
+ 
+ 0            2000-01-01T00:00:00.000   exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc   0        2000-01-01T00:00:00.000   1.1    x               
+ 1            2000-01-01T00:00:02.000   exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc      0        2000-01-01T00:00:03.000   1.1    x      x        
+                                        exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc   0        2000-01-01T00:00:02.000   1.2                    
+ 2            2000-01-01T00:00:04.000   exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc      0        2000-01-01T00:00:05.000   1.2                    
+                                        exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc   0        2000-01-01T00:00:04.000   1.3                    
+ 3            2000-01-01T00:00:06.000   exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc      0        2000-01-01T00:00:07.000   1.3                    
+                                        exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc   0        2000-01-01T00:00:06.000   1.4                    
+ 4            2000-01-01T00:00:08.000   exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc      0        2000-01-01T00:00:09.000   1.4                    
+                                        exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc   0        2000-01-01T00:00:08.000   1.5                    
+ 5            2000-01-01T00:00:10.000   exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc      0        2000-01-01T00:00:11.000   1.5                    
+                                        exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc   0        2000-01-01T00:00:10.000   1.6                    
+ 6            2000-01-01T00:00:12.000   exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc      0        2000-01-01T00:00:13.000   1.6                    
+                                        exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc   0        2000-01-01T00:00:12.000   1.7                    
+ 7            2000-01-01T00:00:14.000   exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc      0        2000-01-01T00:00:15.000   1.7                    
+                                        exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc   0        2000-01-01T00:00:14.000   1.8                    
+ 8            2000-01-01T00:00:16.000   exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc      0        2000-01-01T00:00:17.000   1.8                    
+                                        exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc   0        2000-01-01T00:00:16.000   1.9                    
+ 9            2000-01-01T00:00:18.000   exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc      0        2000-01-01T00:00:19.000   1.9                    
+                                        exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc   0        2000-01-01T00:00:18.000   1.10                   
+ 10           2000-01-01T00:00:20.000   exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc      0        2000-01-01T00:00:21.000   1.10                   
+                                        exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc   0        2000-01-01T00:00:20.000   1.11                   
+ 11           2000-01-01T00:00:22.000   exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc      0        2000-01-01T00:00:23.000   1.11                   
+                                        exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc   0        2000-01-01T00:00:22.000   1.12                   
+ 12           2000-01-01T00:00:24.000   exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc      0        2000-01-01T00:00:25.000   1.12                   
+                                        exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc   0        2000-01-01T00:00:24.000   1.13                   
+ 13           2000-01-01T00:00:26.000   exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc      0        2000-01-01T00:00:27.000   1.13                   
+                                        exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc   0        2000-01-01T00:00:26.000   1.14                   
+ 14           2000-01-01T00:00:28.000   exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc      0        2000-01-01T00:00:29.000   1.14                   
+                                        exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc   0        2000-01-01T00:00:28.000   1.15                   
+ 15           2000-01-01T00:00:30.000   exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc      0        2000-01-01T00:00:30.000   1.15          x        
+                                        exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc   0        2000-01-01T00:00:30.000   1.16          x        
+
+ mo_name_list_output_init::init_name_list_output: Done
+ Variables assigned to action RESET: rain_gsp, snow_gsp, graupel_gsp, ice_gsp, prec_gsp, rain_con, snow_con, prec_con, tot_prec, tot_prec_d, prec_gsp_d, prec_con_d, prec_con_rate_avg, prec_gsp_rate_avg, tot_prec_rate_avg, gust10, tmax_2m, tmin_2m
+ 
+ VarName           | PID | Ref date                | Start date              | End date                | Interval |  
+ ----------------- | --- | ----------------------- | ----------------------- | ----------------------- | -------- |  
+ 
+ rain_gsp          |  1  | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:30.000 | P01Y     |  
+ snow_gsp          |  1  | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:30.000 | P01Y     |  
+ graupel_gsp       |  1  | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:30.000 | P01Y     |  
+ ice_gsp           |  1  | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:30.000 | P01Y     |  
+ prec_gsp          |  1  | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:30.000 | P01Y     |  
+ rain_con          |  1  | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:30.000 | P01Y     |  
+ snow_con          |  1  | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:30.000 | P01Y     |  
+ prec_con          |  1  | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:30.000 | P01Y     |  
+ tot_prec          |  1  | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:30.000 | P01Y     |  
+ tot_prec_d        |  1  | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:30.000 | PT01H    |  
+ prec_gsp_d        |  1  | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:30.000 | PT01H    |  
+ prec_con_d        |  1  | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:30.000 | PT01H    |  
+ prec_con_rate_avg |  1  | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:30.000 | P01Y     |  
+ prec_gsp_rate_avg |  1  | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:30.000 | P01Y     |  
+ tot_prec_rate_avg |  1  | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:30.000 | P01Y     |  
+ gust10            |  1  | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:30.000 | PT01H    |  
+ tmax_2m           |  1  | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:30.000 | PT06H    |  
+ tmin_2m           |  1  | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:00.000 | 2000-01-01T00:00:30.000 | PT06H    |  
+  
+ multifile restart writing selected, joint proc mode.
+ mo_nwp_phy_init:: initialize sea-ice lists, call init_sea_lists
+ Number of (partly) seaice covered points in domain  1:         0
+ Number of (partly) ice-free sea points in domain  1:    327680
+ Number of sea points in domain  1:    327680
+ mo_nwp_phy_init: initialized surface temp and humidity
+ mo_nwp_phy_init: init microphysics
+ gscp_set_coefficients: microphysical values initialized
+ mo_nwp_phy_init: init convection
+ mo_cuparameters, sucumf: NJKT1, NJKT2, KSMAX
+ mo_cuparameters, sucumf:      64     46 0.39455E+05
+ mo_cuparameters, sucumf: LMFMID, LMFDD, LMFDUDV, RTAU, ENTRORG, TEXC, QEXC
+ mo_cuparameters, sucumf:          T     T     T  1.3288 0.1950E-02 0.12500 0.01250
+ mo_cuparameters, sucumf: RHEBC_LND, RHEBC_LND_TROP, RHEBC_OCE, RHEBC_OCE_TROP, RCUCOV, RCUCOV_TROP
+ mo_cuparameters, sucumf:       0.7500  0.7000  0.8500  0.7600  0.0500  0.0300
+ mo_nwp_phy_init: convection initialized
+ mo_nwp_phy_init: init roughness length
+ mo_nwp_phy_init: init COSMO turbulence
+ mo_nwp_phy_init: Cosmo turbulence initialized
+ mo_nwp_phy_init: non-orog GWs initialized
+ mo_cuparameters, sugwd: nktopg, ngwdlim, ngwdtop
+ mo_cuparameters, sugwd:     78    44     8
+ mo_nh_stepping:init_slowphysics: initial call of (slow) physics, domain  1
+ mo_name_list_output::open_output_file: opened exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc at simulation time 2000-01-01T00:00:00.000 by PE 0
+ 
+ added event group: checkpointEventGroup
+ Event list: checkpointEventGroup
+        1          checkpoint
+        2          restart
+ 
+ Start date of this run: 2000-01-01T00:00:00.000
+ Stop date of this run:  2000-01-01T00:00:30.000
+ 
+ 
+ Time step:        1, model time: 2000-01-01 00:00:02.000 forecast time 00D 00H00M02S
+ MAXABS VN, W in domain  1:  0.3499821905E+02 at level  60,   0.0000000000E+00 at level   1,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                  1    12.3240s    12.3240s    12.3240s    12.3240s      12.32401
+ ----------------------------------------------------------------------------------------------------
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                  2     7.2049s     9.7645s    12.3240s    19.5289s      19.52895
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499819852E+02 at level  60,   0.1726844554E-02 at level   2,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                  3     7.2049s     9.1457s    12.3240s    27.4370s      27.43703
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499818400E+02 at level  60,   0.4883404046E-02 at level  51,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                  4     7.2049s     8.8202s    12.3240s    35.2807s      35.28068
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499817377E+02 at level  60,   0.1003217305E-01 at level  51,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                  5     7.2049s     8.6313s    12.3240s    43.1566s      43.15656
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499816662E+02 at level  60,   0.1646849504E-01 at level  51,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                  6     7.2049s     8.4999s    12.3240s    50.9996s      50.99958
+ ----------------------------------------------------------------------------------------------------
+ integrate_nh: call advection  DOM: 1
+ nwp_nh_interface:: average |dPS/dt| =   74.977785 Pa/s in domain  1
+ mo_name_list_output::open_output_file: opened exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc at simulation time 2000-01-01T00:00:03.000 by PE 0
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc at simulation time 2000-01-01T00:00:02.000 by PE 0
+ 
+ Time step:        2, model time: 2000-01-01 00:00:04.000 forecast time 00D 00H00M04S
+ MAXABS VN, W in domain  1:  0.3499815770E+02 at level  60,   0.2466367506E-01 at level  51,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                  7     7.2049s     8.3807s    12.3240s    58.6647s      58.66468
+ ----------------------------------------------------------------------------------------------------
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                  8     7.2049s     8.3124s    12.3240s      01m06s      66.49930
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499815526E+02 at level  60,   0.2145595213E+00 at level  87,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                  9     7.2049s     8.2667s    12.3240s      01m14s      74.40029
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499815368E+02 at level  60,   0.3317871442E+00 at level  87,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 10     7.2049s     8.2280s    12.3240s      01m22s      82.28007
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499815272E+02 at level  60,   0.5720672101E+00 at level  87,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 11     7.2049s     8.1941s    12.3240s      01m30s      90.13542
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499815221E+02 at level  60,   0.8684605711E+00 at level  87,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 12     7.2049s     8.1675s    12.3240s      01m38s      98.00995
+ ----------------------------------------------------------------------------------------------------
+ integrate_nh: call advection  DOM: 1
+ mo_advection_vflux:upwind_vflux_ppm: maximum vertical CFL =  0.59261804E-02
+ nwp_nh_interface:: average |dPS/dt| =   37.848947 Pa/s in domain  1
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc at simulation time 2000-01-01T00:00:05.000 by PE 0
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc at simulation time 2000-01-01T00:00:04.000 by PE 0
+ 
+ Time step:        3, model time: 2000-01-01 00:00:06.000 forecast time 00D 00H00M06S
+ MAXABS VN, W in domain  1:  0.3499814859E+02 at level  60,   0.1212137944E+01 at level  87,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 13     7.2049s     8.2314s    12.3240s      01m47s     107.00855
+ ----------------------------------------------------------------------------------------------------
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 14     7.2049s     8.2060s    12.3240s      01m54s     114.88462
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499814941E+02 at level  60,   0.9358374882E+00 at level  86,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 15     7.2049s     8.1843s    12.3240s      02m02s     122.76395
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499815018E+02 at level  60,   0.8639412398E+00 at level  85,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 16     7.2049s     8.1632s    12.3240s      02m10s     130.61199
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499815089E+02 at level  60,   0.9082208267E+00 at level  85,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 17     7.2049s     8.1463s    12.3240s      02m18s     138.48701
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499815158E+02 at level  60,   0.9469670865E+00 at level  87,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 18     7.2049s     8.1300s    12.3240s      02m26s     146.34073
+ ----------------------------------------------------------------------------------------------------
+ integrate_nh: call advection  DOM: 1
+ nwp_nh_interface:: average |dPS/dt| =   17.143508 Pa/s in domain  1
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc at simulation time 2000-01-01T00:00:07.000 by PE 0
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc at simulation time 2000-01-01T00:00:06.000 by PE 0
+ 
+ Time step:        4, model time: 2000-01-01 00:00:08.000 forecast time 00D 00H00M08S
+ MAXABS VN, W in domain  1:  0.3499814893E+02 at level  60,   0.1085877904E+01 at level  87,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 19     7.2049s     8.1017s    12.3240s      02m33s     153.93174
+ ----------------------------------------------------------------------------------------------------
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 20     7.2049s     8.0904s    12.3240s      02m41s     161.80857
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499815036E+02 at level  60,   0.9440170697E+00 at level  84,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 21     7.2049s     8.0788s    12.3240s      02m49s     169.65439
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499815155E+02 at level  60,   0.8753754228E+00 at level  83,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 22     7.2049s     8.0699s    12.3240s      02m57s     177.53822
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499815259E+02 at level  60,   0.9021839656E+00 at level  82,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 23     7.2049s     8.0599s    12.3240s      03m05s     185.37691
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499815351E+02 at level  60,   0.9089213442E+00 at level  82,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 24     7.2049s     8.0540s    12.3240s      03m13s     193.29548
+ ----------------------------------------------------------------------------------------------------
+ integrate_nh: call advection  DOM: 1
+ mo_advection_vflux:upwind_vflux_ppm: maximum vertical CFL =  0.68979461E-02
+ nwp_nh_interface:: average |dPS/dt| =   18.918876 Pa/s in domain  1
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc at simulation time 2000-01-01T00:00:09.000 by PE 0
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc at simulation time 2000-01-01T00:00:08.000 by PE 0
+ 
+ Time step:        5, model time: 2000-01-01 00:00:10.000 forecast time 00D 00H00M10S
+ MAXABS VN, W in domain  1:  0.3499815105E+02 at level  60,   0.8928916951E+00 at level  81,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 25     7.2049s     8.1019s    12.3240s      03m22s     202.54684
+ ----------------------------------------------------------------------------------------------------
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 26     7.2049s     8.1128s    12.3240s      03m30s     210.93260
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499815260E+02 at level  60,   0.9112663947E+00 at level  81,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 27     7.2049s     8.1040s    12.3240s      03m38s     218.80797
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499815389E+02 at level  60,   0.8790984539E+00 at level  80,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 28     7.2049s     8.0947s    12.3240s      03m46s     226.65223
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499815500E+02 at level  60,   0.9072916009E+00 at level  80,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 29     7.2049s     8.0875s    12.3240s      03m54s     234.53855
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499815598E+02 at level  60,   0.8632189320E+00 at level  80,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 30     7.2049s     8.0816s    12.3240s      04m02s     242.44855
+ ----------------------------------------------------------------------------------------------------
+ integrate_nh: call advection  DOM: 1
+ nwp_nh_interface:: average |dPS/dt| =   27.317145 Pa/s in domain  1
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc at simulation time 2000-01-01T00:00:11.000 by PE 0
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc at simulation time 2000-01-01T00:00:10.000 by PE 0
+ 
+ Time step:        6, model time: 2000-01-01 00:00:12.000 forecast time 00D 00H00M12S
+ MAXABS VN, W in domain  1:  0.3499815357E+02 at level  60,   0.9019922221E+00 at level  79,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 31     7.2049s     8.0667s    12.3240s      04m10s     250.06632
+ ----------------------------------------------------------------------------------------------------
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 32     7.2049s     8.0597s    12.3240s      04m17s     257.91044
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499815515E+02 at level  60,   0.8737277114E+00 at level  79,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 33     7.2049s     8.0549s    12.3240s      04m25s     265.81086
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499815647E+02 at level  60,   0.8937724108E+00 at level  78,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 34     7.2049s     8.0497s    12.3240s      04m33s     273.69067
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499815761E+02 at level  60,   0.8880683347E+00 at level  78,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 35     7.2049s     8.0442s    12.3240s      04m41s     281.54698
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499815862E+02 at level  60,   0.8709920929E+00 at level  77,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 36     7.2049s     8.0399s    12.3240s      04m49s     289.43648
+ ----------------------------------------------------------------------------------------------------
+ integrate_nh: call advection  DOM: 1
+ mo_advection_vflux:upwind_vflux_ppm: maximum vertical CFL =  0.52692267E-02
+ nwp_nh_interface:: average |dPS/dt| =    8.678322 Pa/s in domain  1
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc at simulation time 2000-01-01T00:00:13.000 by PE 0
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc at simulation time 2000-01-01T00:00:12.000 by PE 0
+ 
+ Time step:        7, model time: 2000-01-01 00:00:14.000 forecast time 00D 00H00M14S
+ MAXABS VN, W in domain  1:  0.3499815624E+02 at level  60,   0.8950972167E+00 at level  77,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 37     7.2049s     8.0650s    12.3240s      04m58s     298.40671
+ ----------------------------------------------------------------------------------------------------
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 38     7.2049s     8.0583s    12.3240s      05m06s     306.21438
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499815784E+02 at level  60,   0.8523748299E+00 at level  77,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 39     7.2049s     8.0534s    12.3240s      05m14s     314.08433
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499815918E+02 at level  60,   0.8847215242E+00 at level  76,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 40     7.2049s     8.0485s    12.3240s      05m21s     321.94175
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499816034E+02 at level  60,   0.8790076354E+00 at level  76,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 41     7.2049s     8.0454s    12.3240s      05m29s     329.85995
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499816137E+02 at level  60,   0.8488284447E+00 at level  75,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 42     7.2049s     8.0406s    12.3240s      05m37s     337.70703
+ ----------------------------------------------------------------------------------------------------
+ integrate_nh: call advection  DOM: 1
+ nwp_nh_interface:: average |dPS/dt| =    2.977588 Pa/s in domain  1
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc at simulation time 2000-01-01T00:00:15.000 by PE 0
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc at simulation time 2000-01-01T00:00:14.000 by PE 0
+ 
+ Time step:        8, model time: 2000-01-01 00:00:16.000 forecast time 00D 00H00M16S
+ MAXABS VN, W in domain  1:  0.3499815902E+02 at level  60,   0.8834548817E+00 at level  75,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 43     7.2049s     8.0367s    12.3240s      05m45s     345.57925
+ ----------------------------------------------------------------------------------------------------
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 44     7.2049s     8.0322s    12.3240s      05m53s     353.41785
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499816063E+02 at level  60,   0.8576358143E+00 at level  75,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 45     7.2049s     8.0292s    12.3240s      06m01s     361.31275
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499816199E+02 at level  60,   0.8549294129E+00 at level  74,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 46     7.2049s     8.0265s    12.3240s      06m09s     369.21759
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499816317E+02 at level  60,   0.8753365663E+00 at level  74,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 47     7.2049s     8.0225s    12.3240s      06m17s     377.05720
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499816422E+02 at level  60,   0.8379904856E+00 at level  74,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 48     7.2049s     8.0196s    12.3240s      06m24s     384.94055
+ ----------------------------------------------------------------------------------------------------
+ integrate_nh: call advection  DOM: 1
+ mo_advection_vflux:upwind_vflux_ppm: maximum vertical CFL =  0.44531737E-02
+ nwp_nh_interface:: average |dPS/dt| =    2.009904 Pa/s in domain  1
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc at simulation time 2000-01-01T00:00:17.000 by PE 0
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc at simulation time 2000-01-01T00:00:16.000 by PE 0
+ 
+ Time step:        9, model time: 2000-01-01 00:00:18.000 forecast time 00D 00H00M18S
+ MAXABS VN, W in domain  1:  0.3499816189E+02 at level  60,   0.8514338774E+00 at level  73,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 49     7.2049s     8.0419s    12.3240s      06m34s     394.05250
+ ----------------------------------------------------------------------------------------------------
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 50     7.2049s     8.0407s    12.3240s      06m42s     402.03627
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499816351E+02 at level  60,   0.8648266961E+00 at level  73,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 51     7.2049s     8.0379s    12.3240s      06m49s     409.93470
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499816489E+02 at level  60,   0.8236731670E+00 at level  73,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 52     7.2049s     8.0343s    12.3240s      06m57s     417.78561
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499816609E+02 at level  60,   0.8418918776E+00 at level  72,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 53     7.2049s     8.0313s    12.3240s      07m05s     425.65758
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499816716E+02 at level  60,   0.8546606013E+00 at level  72,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 54     7.2049s     8.0278s    12.3240s      07m13s     433.50111
+ ----------------------------------------------------------------------------------------------------
+ integrate_nh: call advection  DOM: 1
+ nwp_nh_interface:: average |dPS/dt| =    1.259789 Pa/s in domain  1
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc at simulation time 2000-01-01T00:00:19.000 by PE 0
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc at simulation time 2000-01-01T00:00:18.000 by PE 0
+ 
+ Time step:       10, model time: 2000-01-01 00:00:20.000 forecast time 00D 00H00M20S
+ MAXABS VN, W in domain  1:  0.3499816486E+02 at level  60,   0.8163185278E+00 at level  72,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 55     7.2049s     8.0269s    12.3240s      07m21s     441.47971
+ ----------------------------------------------------------------------------------------------------
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 56     7.2049s     8.0236s    12.3240s      07m29s     449.32016
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499816650E+02 at level  60,   0.8274086004E+00 at level  71,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 57     7.2049s     8.0206s    12.3240s      07m37s     457.17536
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499816789E+02 at level  60,   0.8446615955E+00 at level  71,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 58     7.2049s     8.0181s    12.3240s      07m45s     465.04778
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499816911E+02 at level  60,   0.8146437205E+00 at level  71,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 59     7.2049s     8.0151s    12.3240s      07m52s     472.89252
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499817020E+02 at level  60,   0.8056174799E+00 at level  70,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 60     7.2049s     8.0129s    12.3240s      08m00s     480.77249
+ ----------------------------------------------------------------------------------------------------
+ integrate_nh: call advection  DOM: 1
+ mo_advection_vflux:upwind_vflux_ppm: maximum vertical CFL =  0.38593951E-02
+ nwp_nh_interface:: average |dPS/dt| =    0.973972 Pa/s in domain  1
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc at simulation time 2000-01-01T00:00:21.000 by PE 0
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc at simulation time 2000-01-01T00:00:20.000 by PE 0
+ 
+ Time step:       11, model time: 2000-01-01 00:00:22.000 forecast time 00D 00H00M22S
+ MAXABS VN, W in domain  1:  0.3499816792E+02 at level  60,   0.8309224208E+00 at level  70,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 61     7.2049s     8.0308s    12.3240s      08m09s     489.88077
+ ----------------------------------------------------------------------------------------------------
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 62     7.2049s     8.0300s    12.3240s      08m17s     497.86268
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499816958E+02 at level  60,   0.8133593299E+00 at level  70,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 63     7.2049s     8.0276s    12.3240s      08m25s     505.73960
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499817099E+02 at level  60,   0.7752573382E+00 at level  69,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 64     7.2049s     8.0256s    12.3240s      08m33s     513.64006
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499817223E+02 at level  60,   0.8112815124E+00 at level  69,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 65     7.2049s     8.0234s    12.3240s      08m41s     521.52116
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499817334E+02 at level  60,   0.8092147632E+00 at level  69,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 66     7.2049s     8.0207s    12.3240s      08m49s     529.36937
+ ----------------------------------------------------------------------------------------------------
+ integrate_nh: call advection  DOM: 1
+ nwp_nh_interface:: average |dPS/dt| =    0.995575 Pa/s in domain  1
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc at simulation time 2000-01-01T00:00:23.000 by PE 0
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc at simulation time 2000-01-01T00:00:22.000 by PE 0
+ 
+ Time step:       12, model time: 2000-01-01 00:00:24.000 forecast time 00D 00H00M24S
+ MAXABS VN, W in domain  1:  0.3499817109E+02 at level  60,   0.7651173080E+00 at level  69,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 67     7.2049s     8.0166s    12.3240s      08m57s     537.10963
+ ----------------------------------------------------------------------------------------------------
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 68     7.2049s     8.0140s    12.3240s      09m04s     544.95525
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499817275E+02 at level  60,   0.7825333182E+00 at level  68,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 69     7.2049s     8.0116s    12.3240s      09m12s     552.79807
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499817418E+02 at level  60,   0.7976068716E+00 at level  68,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 70     7.2049s     8.0096s    12.3240s      09m20s     560.66851
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499817544E+02 at level  60,   0.7749527932E+00 at level  68,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 71     7.2049s     8.0073s    12.3240s      09m28s     568.51910
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499817658E+02 at level  60,   0.7409195662E+00 at level  67,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 72     7.2049s     8.0056s    12.3240s      09m36s     576.40332
+ ----------------------------------------------------------------------------------------------------
+ integrate_nh: call advection  DOM: 1
+ mo_advection_vflux:upwind_vflux_ppm: maximum vertical CFL =  0.33823011E-02
+ nwp_nh_interface:: average |dPS/dt| =    1.585665 Pa/s in domain  1
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc at simulation time 2000-01-01T00:00:25.000 by PE 0
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc at simulation time 2000-01-01T00:00:24.000 by PE 0
+ 
+ Time step:       13, model time: 2000-01-01 00:00:26.000 forecast time 00D 00H00M26S
+ MAXABS VN, W in domain  1:  0.3499817435E+02 at level  60,   0.7728392852E+00 at level  67,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 73     7.2049s     8.0185s    12.3240s      09m45s     585.35102
+ ----------------------------------------------------------------------------------------------------
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 74     7.2049s     8.0157s    12.3240s      09m53s     593.15940
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499817603E+02 at level  60,   0.7723193065E+00 at level  67,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 75     7.2049s     8.0138s    12.3240s      10m01s     601.03590
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499817747E+02 at level  60,   0.7355640032E+00 at level  67,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 76     7.2049s     8.0117s    12.3240s      10m08s     608.88940
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499817875E+02 at level  60,   0.7306802406E+00 at level  66,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 77     7.2049s     8.0100s    12.3240s      10m16s     616.76737
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499817991E+02 at level  60,   0.7513750729E+00 at level  66,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 78     7.2049s     8.0080s    12.3240s      10m24s     624.62425
+ ----------------------------------------------------------------------------------------------------
+ integrate_nh: call advection  DOM: 1
+ nwp_nh_interface:: average |dPS/dt| =    1.796324 Pa/s in domain  1
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc at simulation time 2000-01-01T00:00:27.000 by PE 0
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc at simulation time 2000-01-01T00:00:26.000 by PE 0
+ 
+ Time step:       14, model time: 2000-01-01 00:00:28.000 forecast time 00D 00H00M28S
+ MAXABS VN, W in domain  1:  0.3499817770E+02 at level  60,   0.7404866096E+00 at level  66,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 79     7.2049s     8.0083s    12.3240s      10m32s     632.65230
+ ----------------------------------------------------------------------------------------------------
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 80     7.2049s     8.0061s    12.3240s      10m40s     640.48403
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499817938E+02 at level  60,   0.6955594311E+00 at level  66,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 81     7.2049s     8.0040s    12.3240s      10m48s     648.32796
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499818083E+02 at level  60,   0.7068593786E+00 at level  65,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 82     7.2049s     8.0027s    12.3240s      10m56s     656.22245
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499818212E+02 at level  60,   0.7204221786E+00 at level  65,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 83     7.2049s     8.0011s    12.3240s      11m04s     664.08758
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499818328E+02 at level  60,   0.7040402871E+00 at level  65,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 84     7.2049s     7.9994s    12.3240s      11m11s     671.95208
+ ----------------------------------------------------------------------------------------------------
+ integrate_nh: call advection  DOM: 1
+ mo_advection_vflux:upwind_vflux_ppm: maximum vertical CFL =  0.28837827E-02
+ nwp_nh_interface:: average |dPS/dt| =    1.457059 Pa/s in domain  1
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc at simulation time 2000-01-01T00:00:29.000 by PE 0
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc at simulation time 2000-01-01T00:00:28.000 by PE 0
+ 
+ Time step:       15, model time: 2000-01-01 00:00:30.000 forecast time 00D 00H00M30S
+ MAXABS VN, W in domain  1:  0.3499818107E+02 at level  60,   0.6554967635E+00 at level  65,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 85     7.2049s     8.0151s    12.3240s      11m21s     681.28228
+ ----------------------------------------------------------------------------------------------------
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 86     7.2049s     8.0145s    12.3240s      11m29s     689.24670
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499818273E+02 at level  60,   0.6686070702E+00 at level  64,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 87     7.2049s     8.0130s    12.3240s      11m37s     697.12678
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499818416E+02 at level  60,   0.6786650499E+00 at level  64,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 88     7.2049s     8.0110s    12.3240s      11m44s     704.97096
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499818542E+02 at level  60,   0.6607780826E+00 at level  64,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 89     7.2049s     8.0096s    12.3240s      11m52s     712.85474
+ ----------------------------------------------------------------------------------------------------
+ MAXABS VN, W in domain  1:  0.3499818655E+02 at level  60,   0.6129699378E+00 at level  64,
+ 
+ ----------------------------------------------------------------------------------------------------
+ Timer report
+ th name                        # calls       t_min   t_average       t_max           t_total
+ ----------------------------------------------------------------------------------------------------
+ 00 nh_solve.veltend                 90     7.2049s     8.0079s    12.3240s      12m00s     720.71190
+ ----------------------------------------------------------------------------------------------------
+ integrate_nh: call advection  DOM: 1
+ nwp_nh_interface:: average |dPS/dt| =    1.335739 Pa/s in domain  1
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_2d_20000101T000003Z.nc at simulation time 2000-01-01T00:00:30.000 by PE 0
+ mo_name_list_output::write_name_list_output: Output to exclaim_ape_R02B04_atm_3d_pl_20000101T000000Z.nc at simulation time 2000-01-01T00:00:30.000 by PE 0
+ destruct_atmo_nonhydrostatic: start to clean up
+ mo_pp_scheduler::pp_scheduler_finalize: 
+ mo_nonhydro_state::destruct_nh_state: Destruction of NH state started
+ mo_nonhydro_state::destruct_nh_state: NH state destruction completed
+ mo_prepadv_state:destruct_prepadv_state: destruction of prep_adv state finished
+ mo_nwp_phy_state:destruct_nwp_phy_state: start to destruct 3D state vector
+ mo_nwp_phy_state:destruct_nwp_phy_state: destruction of 3D state vector finished
+ mo_nwp_lnd_state:destruct_nwp_lnd_state: Destruction of nwp land state started
+ mo_nwp_lnd_state:destruct_nwp_lnd_state: Destruction of nwp land state completed
+ destruct_atmo_nonhydrostatic: delete output variable lists
+ destruct_atmo_nonhydrostatic: finish statistics streams
+ destruct_atmo_nonhydrostatic: finalize meteogram output
+ destruct_atmo_nonhydrostatic: clean-up finished
+ 
+ Timer report
+ (master thread only)
+ 
+ ------------------------------   -------   ------------   ------------   ------------   -------------   -------------   -------------    
+ name                             # calls   t_min          t_avg          t_max          total min (s)   total max (s)   total avg (s)    
+ ------------------------------   -------   ------------   ------------   ------------   -------------   -------------   -------------    
+ 
+ total                            1               01h57m         01h57m         01h57m   ************        7043.495        7043.495     
+  L integrate_nh                  15              06m42s         07m14s         07m45s   ************        6515.528        6515.528     
+     L nh_solve                   75            39.1860s       43.6478s       52.1456s   ************        3273.582        3273.582     
+        L nh_solve.veltend        90             7.2049s        8.0079s       12.3240s   ************         720.712         720.712     
+        L nh_solve.cellcomp       150            2.0737s        2.3600s        2.4515s   ************         354.002         354.002     
+        L nh_solve.edgecomp       150            1.4006s        3.2794s        5.6023s   ************         491.904         491.904     
+        L nh_solve.vnupd          150            4.0151s        6.9695s        9.5556s   ************        1045.420        1045.420     
+        L nh_solve.vimpl          150            3.9653s        4.3840s        6.1244s   ************         657.607         657.607     
+        L nh_solve.exch           300           0.00000s       0.00001s       0.00073s   ************           0.002           0.002     
+     L nh_hdiff                   15            12.1469s       12.3331s       13.6487s   ************         184.996         184.996     
+     L transport                  15              01m59s         02m04s         02m06s   ************        1869.521        1869.521     
+        L adv_horiz               15              01m53s         01m59s         02m01s   ************        1792.307        1792.307     
+           L adv_hflx             15              01m46s         01m48s         01m50s   ************        1632.583        1632.583     
+              L back_traj         45            0.28440s       0.63833s        1.2637s   ************          28.725          28.725     
+        L adv_vert                15             4.9305s        4.9535s        5.0070s   ************          74.302          74.302     
+           L adv_vflx             15             4.4901s        4.5143s        4.5483s   ************          67.714          67.714     
+  L action                        15            0.00003s       0.00003s       0.00005s   ************           0.000           0.000     
+ global_sum                       19            0.00000s       0.00004s       0.00037s   ************           0.001           0.001     
+ ordglb_sum                       18            0.00000s       0.00607s       0.10759s   ************           0.109           0.109     
+ wrt_output                       16            0.87646s       0.98827s        1.0764s   ************          15.812          15.812     
+ physics                          16            46.1714s         01m14s         01m43s   ************        1185.316        1185.316     
+  L phys_acc_sync                 16             1.2824s        3.0861s        4.7233s   ************          49.377          49.377     
+  L satad                         16            0.30157s        2.8418s        3.1074s   ************          45.469          45.469     
+  L phys_u_v                      16             2.0347s        2.0385s        2.0420s   ************          32.615          32.615     
+  L nwp_turbulence                31            0.36439s        8.6298s       17.9719s   ************         267.522         267.522     
+     L nwp_turbtrans              16            0.36439s       0.37670s       0.43953s   ************           6.027           6.027     
+  L nwp_surface                   15            0.01259s       0.01292s       0.01441s   ************           0.194           0.194     
+  L nwp_microphysics              15            16.6609s       19.0439s       19.4684s   ************         285.659         285.659     
+  L rediag_prog_vars              16            0.78877s        2.8509s        3.0301s   ************          45.614          45.614     
+  L nwp_convection                9             28.7542s       36.0363s         01m15s   ************         324.327         324.327     
+  L sso                           5             16.2780s       19.1476s       20.1599s   ************          95.738          95.738     
+  L cloud_cover                   9              3.7934s        4.2561s        4.3461s   ************          38.305          38.305     
+ nh_diagnostics                   95            0.00000s        3.9282s       13.8624s   ************         373.184         373.184     
+ diagnose_pres_temp               36            0.00006s       0.81605s        1.1192s   ************          29.378          29.378     
+ model_init                       3               01m05s         07m11s         17m54s   ************        1295.751        1295.751     
+  L compute_domain_decomp         1              2.9066s        2.9066s        2.9066s   ************           2.907           2.907     
+  L compute_intp_coeffs           1             57.5639s       57.5639s       57.5639s   ************          57.564          57.564     
+  L init_ext_data                 1             0.07808s       0.07808s       0.07808s   ************           0.078           0.078     
+  L init_nwp_phy                  1             13.2601s       13.2601s       13.2601s   ************          13.260          13.260     
+ upper_atmosphere                 2             0.00001s       0.00023s       0.00046s   ************           0.000           0.000     
+  L upatmo_construction           1             0.00046s       0.00046s       0.00046s   ************           0.000           0.000     
+  L upatmo_destruction            1             0.00001s       0.00001s       0.00001s   ************           0.000           0.000     
+ write_restart                    2             0.00042s       0.01405s       0.02768s   ************           0.028           0.028     
+  L write_restart_setup           1             0.02765s       0.02765s       0.02765s   ************           0.028           0.028     
+     L write_restart_collectors   208           0.00000s       0.00013s       0.02758s   ************           0.028           0.028     
+        L write_restart_indices   3             0.00454s       0.00919s       0.01371s   ************           0.028           0.028     
+ -------------------------------------------------------------------------------------------------------------------------------------    
+ 
+ mo_ext_data_state:destruct_ext_data: Destruction of data structure for external data started
+ mo_ext_data_state:destruct_ext_data: Destruction of data structure for external data finished
+ mo_interpolation:destruct_int_state: start to destruct int state
+ mo_interpolation:destruct_int_state: destruction of interpolation state finished
+ mo_atmo_model:destruct_atmo_model: destruct_2d_interpol_state is done
+ mo_alloc_patches:destruct_comm_patterns: start
+ mo_alloc_patches:destruct_comm_patterns: destruct_comm_patterns finished
+ mo_alloc_patches:destruct_patches: start
+ mo_alloc_patches:destruct_patches: destruct_patches finished
+ mo_alloc_patches:destruct_patches: start
+ mo_alloc_patches:destruct_patches: destruct_patches finished
+ mo_atmo_model:destruct_atmo_model: destruct_patches is done
+ mo_atmo_model:destruct_atmo_model: clean-up finished
++ set +x
+Mon Apr 14 21:11:03 CEST 2025
+OK
+============================
+Script run successfully:  OK
+============================
